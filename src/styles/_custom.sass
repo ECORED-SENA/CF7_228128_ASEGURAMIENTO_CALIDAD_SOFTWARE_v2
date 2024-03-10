@@ -2,14 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 30%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
-
+    right: 10%
 
 @keyframes float1
   0%
@@ -17,3 +21,31 @@
 
   100%
     transform: translateY(0px)
+
+span.resalte
+  color: $color-acento-contenido !important
+  font-weight: bold !important
+.tarjet-icon
+  @media (min-width: $bp-max-md)
+    p
+      margin-left: 5rem
+.mn
+  margin: 0 -3rem
+.fondo-mn
+  background-image: url('../assets/curso/temas/fondo-mn.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
+.bg-slide1
+  background-image: url('../assets/curso/temas/bg-slide1.png')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
+.bg-slide2
+  background-image: url('../assets/curso/temas/bg-slide2.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
+.slyder-f__btn
+  i
+    color: $color-acento-botones
