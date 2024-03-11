@@ -149,8 +149,8 @@
               p.mb-0.text-white Principio de unicidad: En una tabla nunca deben existir TUPLAS repetidas, es decir, no debe haber más de una fila con exactamente los mismos valores en cada columna que otra fila de la misma tabla. En otras palabras, cada fila debe diferir al menos en un elemento (columna) en relación con las demás.
     p.mb-5(data-aos='fade-right') En una base de datos relacional, las relaciones permiten evitar datos redundantes. En el ejemplo anterior una persona pudiera tener varias cuentas bancarias, pero no es deseable que, por cada una de las cuentas bancarias asociadas a la misma persona, se deban repetir los datos de esta, sino más bien, que se debe encontrar un mecanismo para relacionar la información de las dos tablas; y para ello se introducen algunos conceptos útiles.
     .fondo-mn.p-5.mn.mb-5
-      .titulo-icono.p-3.d-inline-block.mb-4
-        h4 Claves 
+      .titulo-icono.p-2.d-inline-block.mb-4
+        h4.mb-0 Claves 
       p.mb-5(data-aos='fade-right') Dado que en una tabla no hay filas repetidas, se pueden distinguir unas de otras, es decir, se pueden identificar de manera única (por el principio de unidad). Por lo tanto, la manera de identificarlas inequívocamente es según los valores de los atributos. De esta forma, se conoce como claves a los atributos que sirven para identificar un registro de forma inequívoca.
       h6 Ejemplo 
       p.mb-5(data-aos='fade-right') Para organizar y definir la información de forma sistemática, las bases de datos también deben poder almacenar una descripción precisa de los datos que contiene conocida como metadatos, a los que se le relaciona el tipo de información que conceptualmente es guardada (es decir si se agrega una explicación de la naturaleza del dato en la empresa) se da origen a lo que conoce como diccionario de datos o catálogo de datos.
@@ -159,7 +159,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1.
             span Claves de las entidades persona y cuenta 
-          img(src='@/assets/curso/temas/23.svg', alt='').mb-4
+          img(src='@/assets/curso/temas/23.svg', alt='La figura presenta un diagrama de un modelo de base de datos que conecta las entidades persona y cuenta a través de la relación titular. La entidad persona incluye atributos como nombres, apellidos, edad e identificación, mientras que la entidad cuenta incluye número de cuenta, saldo y fecha de creación. Este diagrama se utiliza para representar cómo se almacena y se relaciona la información de clientes y sus cuentas bancarias en un sistema informático.').mb-4
           p.mb-5(data-aos='fade-right') #[span.resalte2 Nótese como los atributos identificacion y numero_cuenta tiene subrayada la palabra identificadora del atributo], representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
     h4 Claves candidata, superclave y clave primaria 
     p.mb-5(data-aos='fade-right') Se supone el caso ahora que el banco es internacional, que es un banco moderno y solo diseñado para transacciones vía internet o virtuales, por lo tanto, el correo del cliente (persona) es necesario y obligatorio.
@@ -187,7 +187,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2. 
           span Claves candidatas
-        img(src='@/assets/curso/temas/26.svg', alt='')
+        img(src='@/assets/curso/temas/26.svg', alt='La figura presenta dos diagramas de entidad con atributos que representan claves candidatas para la entidad persona. Ambos diagramas listan atributos como nombres, apellidos, correo, edad, país e identificación. Estos diagramas sugieren posibles conjuntos de atributos que podrían usarse para identificar de manera única una instancia de la entidad persona en una base de datos.')
     h4 Clave candidata
     p.mb-5(data-aos='fade-right') Los dos caminos propuestos en la figura 2 son válidos, y se denominan claves candidatas porque con ambas se puede lograr el principio de unicidad, y es potestad de cada diseñador o analista de sistemas determinar cuál de las dos emplear.
     .row.justify-content-center.mb-5
@@ -204,7 +204,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3. 
           span Claves candidatas secuencia
-        img(src='@/assets/curso/temas/28.svg', alt='')
+        img(src='@/assets/curso/temas/28.svg', alt='La figura presenta un diagrama de la entidad persona con varios atributos conectados a ella. Los atributos listados son nombres, apellidos, correo, edad, país, identificación y id_persona. Este diagrama probablemente se utiliza en el contexto de una base de datos para ilustrar los atributos que podrían ser considerados como claves candidatas.')
     .row.justify-content-center.mb-5
       .col-lg-10 
         .tabla-a.color-acento-botones.mb-5
@@ -302,7 +302,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 4. 
         span Relaciones de uno a muchos 
-      img(src='@/assets/curso/temas/31.svg', alt='').mb-5
+      img(src='@/assets/curso/temas/31.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
       p.mb-5(data-aos='fade-right') A esta representación se le denomina multiplicidad 1:N y se lee de la siguiente forma:  UNA persona es titular de N cuentas bancarias, de esta forma una persona puede tener N (que puede ser cero, uno o más de una) cuentas bancarias. Se puede leer en forma inversa que el resultado es el mismo: muchas o varias cuentas bancarias pueden tener un mismo titular. 
         br
         br
@@ -312,10 +312,10 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 5. 
             span Tablas de un modelo relacional 1:N
-          img(src='@/assets/curso/temas/32.png', alt='').mb-4
+          img(src='@/assets/curso/temas/32.png', alt='La figura presenta dos tablas de un modelo relacional de base de datos con la notación de relación uno a muchos (1:N). La primera tabla, etiquetada como ‘Tabla persona’, contiene columnas para id_persona, país, identificación, correo, nombres, apellidos y edad, con datos de ejemplo para cada campo. La segunda tabla, etiquetada como ‘Tabla cuenta’, incluye columnas para número_cuenta, titular (que hace referencia a id_persona de la tabla persona), saldo y fecha_creación, también con datos de ejemplo. Este modelo muestra cómo los registros de individuos en la tabla persona están relacionados con los registros en la tabla cuenta.').mb-4
           p(data-aos='fade-right') Como se evidencia en la figura 5, Ana Lis Méndez es titular de dos cuentas bancarias (67.789.901 y 32.443.171). Todos los datos en la columna titular de la tabla cuenta se denominan LLAVE FORÁNEA de la tabla persona. 
-    .titulo-icono.p-3.d-inline-block.mb-4
-        h4 REGLA DE MAPEO 1:N de Modelo entidad-relación a modelo relacional:
+    .titulo-icono.p-2.d-inline-block.mb-4
+        h4.mb-0 REGLA DE MAPEO 1:N de Modelo entidad-relación a modelo relacional:
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -329,12 +329,12 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 6. 
           span Diagrama relacional 1:N
-        img(src='@/assets/curso/temas/37.png', alt='')
+        img(src='@/assets/curso/temas/37.png', alt='La figura contiene un diagrama relacional que muestra dos entidades, ‘persona’ y ‘cuenta’, junto con sus atributos y la relación entre ellas. La entidad ‘persona’ tiene atributos como id_persona (clave primaria), país, identificación, correo, nombres, apellidos y edad. La entidad ‘cuenta’ posee atributos como número_cuenta (clave primaria), titular (clave foránea que referencia a id_persona de la entidad persona), saldo y fecha_creación. La línea que conecta ambas entidades indica una relación de uno a muchos, lo que significa que una persona puede tener asociadas varias cuentas.')
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7. 
           span Diagrama relacional 1:N con metadatos
-        img(src='@/assets/curso/temas/38.png', alt='')
+        img(src='@/assets/curso/temas/38.png', alt='La figura muestra un diagrama de dos tablas de base de datos: ‘persona’ y ‘cuenta’. ‘Persona’ incluye campos como id_persona, país, identificación y otros, con tipos de datos especificados como INTEGER y VARCHAR. ‘Cuenta’ tiene campos como número_cuenta, titular, saldo y fecha_creación con tipos FLOAT y DATE. La clave foránea ‘titular’ en ‘cuenta’ enlaza con la clave primaria ‘id_persona’ de ‘persona’, indicando que a cada persona pueden corresponder varias cuentas.')
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         p.mb-0 En la figura 6 se puede identificar el nombre de las entidades (persona y cuenta), los atributos haciendo especial énfasis en los que representan la llave primaria con el indicador PK (del inglés Primary Key), y también se observa la relación titular (columna de la tabla), indicando que es una clave o llave foránea de la tabla persona, lo indica con el indicador FK (del inglés Foreign Key).
@@ -354,12 +354,12 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 8. 
         span Diagrama de entidad de publicaciones bibliográficas
-      img(src='@/assets/curso/temas/39.svg', alt='').mb-4
+      img(src='@/assets/curso/temas/39.svg', alt='El diagrama ilustra cómo las personas como autores están conectadas a sus obras, y sirve para modelar la estructura de una base de datos para almacenar y recuperar información sobre libros y otros tipos de publicaciones').mb-4
       .row.justify-content-center.mb-5
         .col-lg-10
           p Como se identifica en la figura 8, la entidad publicación tiene una llave primaria llamada identificación, y existe una relacionada llamada autor, y representa que una persona pueden ser autor de una o muchas publicaciones, y que una publicación puede ser de autoría de una o muchas personas, la multiplicidad en este caso es de muchos a muchos y se representa como N:N.
-    .titulo-icono.p-3.d-inline-block.mb-4
-        h4 REGLA DE MAPEO N:N de Modelo entidad-relación a modelo relacional
+    .titulo-icono.p-2.d-inline-block.mb-4
+        h4.mb-0 REGLA DE MAPEO N:N de Modelo entidad-relación a modelo relacional
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -371,14 +371,14 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 9.
       span Tablas de relación N:N.
-    img(src='@/assets/curso/temas/40.png', alt='').mb-4
+    img(src='@/assets/curso/temas/40.png', alt='La figura muestra tres tablas de base de datos que representan una relación de muchos a muchos entre personas y publicaciones. La tabla persona contiene campos para identidad y datos personales. La tabla publicación detalla las publicaciones. La tabla autor sirve como conexión, relacionando autores con sus obras mediante identificadores de ambas tablas.').mb-4
     p.mb-5(data-aos='fade-right') La representación de la relación N:N con un diagrama relacional se muestra en la figura 9. Donde se usan los prefijos FK1 y FK2, para indicar llave foránea uno y dos, para las entidades persona y publicación 2, respectivamente.  También se puede identificar el prefijo UK (Unique Key) en la tabla publicación, en la columna ISBN, el cual significa que en toda la tabla publicación no puede existir más de una fila con el mismo ISBN es decir, nunca ninguna publicación tendrá el mismo ISBN que otra. 
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 10. 
           span Tablas de relación N:N.
-        img(src='@/assets/curso/temas/33.png', alt='')
+        img(src='@/assets/curso/temas/33.png', alt='La figura presenta un diagrama de base de datos con las tablas persona, autor y publicación. La tabla persona y publicación tienen cada una su clave primaria, y la tabla autor las une con claves foráneas, representando una relación de muchos a muchos entre personas y publicaciones. Esto permite que múltiples personas sean autores de múltiples publicaciones.')
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Relaciones de uno a uno
@@ -405,9 +405,9 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-54
       h5 Figura 11.
       span Diagrama entidad relación persona-empleado
-    img(src='@/assets/curso/temas/36.svg', alt='').mb-5
-    .titulo-icono.p-3.d-inline-block.mb-4
-        h4 REGLA DE MAPEO 1:1 de Modelo entidad-relación a modelo relacional
+    img(src='@/assets/curso/temas/36.svg', alt='El diagrama muestra las entidades ‘persona’, ‘empleado’ y ‘cuenta’ en una base de datos. ‘Persona’ tiene atributos personales y está vinculada uno a uno con ‘empleado’, que incluye datos laborales. ‘Persona’ también está vinculada uno a muchos con ‘cuenta’, indicando que una persona puede tener varias cuentas bancarias. Estas relaciones permiten modelar cómo los empleados y sus cuentas están interconectados.').mb-5
+    .titulo-icono.p-2.d-inline-block.mb-4
+        h4.mb-0 REGLA DE MAPEO 1:1 de Modelo entidad-relación a modelo relacional
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -420,7 +420,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 12. 
           span Diagrama relacional 1:1
-        img(src='@/assets/curso/temas/45.png', alt='')
+        img(src='@/assets/curso/temas/45.png', alt='El diagrama representa un modelo de base de datos con las tablas ‘persona’, ‘empleado’ y ‘cuenta’. ‘Persona’ se relaciona directamente con ‘empleado’ en una relación uno a uno y con ‘cuenta’ en una relación uno a muchos. Los atributos y claves primarias y foráneas están indicados, estructurando cómo se relacionan los datos de personas, su empleo y sus cuentas')
       .col-lg-7
         .p-4(style="background-color: #ffe888 ")
           p.mb-0 Como se puede inferir de la figura 12, se crea una tabla donde se relacionan los datos de las personas que son empleados del banco, a través de una columna que se llama id_persona, pero es común entre algunos diseñadores ponerle el nombre que lo relacione con la tabla a la que pertenece, es decir, id_empleado, pero esto queda al criterio del diseñador. 

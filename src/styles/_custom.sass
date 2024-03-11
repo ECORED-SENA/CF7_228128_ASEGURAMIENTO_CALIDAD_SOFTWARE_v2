@@ -39,6 +39,21 @@ span.resalte2
   background-repeat: no-repeat
   background-position: 0 0
   background-size: cover
+.fondo-mn2
+  background-image: url('../assets/curso/temas/fondo-mn2.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
+.fondo-mn3
+  background-image: url('../assets/curso/temas/fondo-mn3.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
+.fondo-mn4
+  background-image: url('../assets/curso/temas/fondo-mn4.svg')
+  background-repeat: no-repeat
+  background-position: 0 0
+  background-size: cover
 .bg-slide1
   background-image: url('../assets/curso/temas/bg-slide1.png')
   background-repeat: no-repeat
@@ -59,3 +74,48 @@ span.resalte2
 
 .bg-color-secundario
   background: $color-secundario
+.titulo-icono
+  position: relative
+  background-color: #8deecc
+  border-radius: 10px
+  &:before
+    content: url('../assets/curso/temas/titulo.svg')
+    width: 40px
+    position: absolute
+    left: 0
+    top: 0
+    transform: translate(-10px,-7px)
+
+  h4
+    margin-left: 30px
+    margin-right: 30px
+.tarjeta-adorno1
+  border-radius: 10px
+  position: relative
+  overflow: hidden
+  &::before
+    content: url('../assets/curso/temas/adorno1.svg')
+    position: absolute
+    width: 100px
+    right: 0
+    top: 0
+    transform: translate(10px,30px)
+.tarjeta-adorno2
+  border-radius: 10px
+  position: relative
+  overflow: hidden
+  &::before
+    content: url('../assets/curso/temas/adorno2.svg')
+    position: absolute
+    width: 100px
+    right: 0
+    top: 0
+    transform: translate(10px,30px)
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a__tab.tabs-a__tab__selected
+  color: $color-sistema-texto !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  opacity: 1
+  border: 0

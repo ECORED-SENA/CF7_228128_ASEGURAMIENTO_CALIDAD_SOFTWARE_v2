@@ -382,6 +382,11 @@
                   td FLOAT
                   td.fst-italic FLOAT
     p.mb-5(data-aos='fade-right') Según el tipo de sistema gestor de bases de datos, cada uno define sus tipos de datos que, de alguna forma, son muy parecidos entre ellos, o existen equivalencias, las diferencias son pocas y están relacionadas con aspectos técnicos del almacenamiento, se pueden conocer más detalles de cada uno de ellos en los sitios oficiales de cada motor de base de datos:
+
+
+    //TODO! COMPLETAR TABLA 
+
+    
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')

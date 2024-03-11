@@ -41,8 +41,23 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipos de datos y restricción de no nulidad',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Tipos de bases de datos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Clasificación de bases de datos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Sistema de gestión de bases de datos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -52,11 +67,61 @@ export default {
         numero: '2',
         titulo: 'Modelo entidad relación',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Relaciones entre entidades',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Relaciones de uno a muchos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Relaciones de un uno a muchos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Relaciones de uno a uno',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Dependencias funcionales',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Diseño relacional',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Reglas de integridad',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Lenguajes de los sistemas administradores de bases de datos',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: '',
         desarrolloContenidos: true,
       },
     ],
