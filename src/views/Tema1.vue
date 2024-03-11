@@ -446,14 +446,14 @@
               p En las primeras bases de datos empleadas son las de estructura jerárquica. Las relaciones entre registros forman una estructura en árbol, en la actualidad un ejemplo de estas bases datos es la base da tos LDAP usada en la actualidad para sistema de directorio de datos tales como usuario, dispositivos, nombres, contraseñas, direcciones etc. dentro de una red de computadores
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/7.svg', alt='')
+                img(src='@/assets/curso/temas/7.svg', alt='La imagen es un diagrama jerárquico de bases de datos que muestra la relación entre un departamento y sus profesores y cursos. “DEPT01” está en la cima, seguido por “PROFESOR 1”, “PROFESOR 2” y “PROFESOR 3”. Cada profesor está conectado a uno o más “CURSOS”, indicando la organización de las clases dentro del departamento.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura en red
               p Esta estructura es un poco más compleja que la anterior porque contiene otras relaciones de las jerárquicas admitiendo relaciones de cada registro otros, de manera tal que puede seguir distintos caminos para acceder a la información.
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/8.svg', alt='')
+                img(src='@/assets/curso/temas/8.svg', alt='El diagrama muestra tres ciudades y sus vendedores correspondientes: Carlos, Juan y María. Cada vendedor ofrece distintos productos, indicando la distribución de productos por vendedor y su relación con las ciudades.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura relacional
@@ -463,21 +463,21 @@
 
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/9.png', alt='')
+                img(src='@/assets/curso/temas/9.png', alt='El diagrama ilustra una base de datos relacional que vincula clientes y vehículos. Incluye tablas para clientes y vehículos, y una tabla de unión que asocia a ambos con detalles adicionales.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura multidimensional
               p Es la extensión de las bases de datos de estructuras relacionales, como se vio en las relacionales, se basan en estructuras bidimensionales (tablas), mientras que la multidimensional en cubos (tres dimensiones), o más complejas con N dimensione
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/10.png', alt='')
+                img(src='@/assets/curso/temas/10.png', alt='La imagen muestra un cubo de datos, representativo de una base de datos multidimensional, utilizada en el análisis de información empresarial. Este tipo de estructura permite analizar datos desde múltiples perspectivas. El cubo representa ventas de productos en países (Argentina, Brasil, Chile) durante tres meses (Abril, Mayo, Junio). Cada celda del cubo muestra la cantidad de unidades vendidas de cada producto durante un mes específico en un país.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura orientada a objetos
               p Una base de datos orientada a objetos es un sistema de gestión de base de datos mediante el cual representamos la información en forma de objetos que son utilizados en programación orientada a objetos (Kyocera, 2021).
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/11.png', alt='')
+                img(src='@/assets/curso/temas/11.png', alt='El diagrama es un modelo de base de datos orientada a objetos que incluye las clases Cliente, Orden, Pago (con Crédito y Efectivo como subclases), Bebida y Platillo. Cada clase tiene sus atributos y métodos, y se muestran las relaciones entre ellas, como la multiplicidad de órdenes por cliente y la composición de órdenes con bebidas y platillos.')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.svg', alt='')
       .col-lg-10
