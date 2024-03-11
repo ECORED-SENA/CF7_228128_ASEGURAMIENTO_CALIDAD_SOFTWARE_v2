@@ -113,7 +113,8 @@ export default {
           },
           {
             numero: '3.4',
-            titulo: 'Lenguajes de los sistemas administradores de bases de datos',
+            titulo:
+              'Lenguajes de los sistemas administradores de bases de datos',
             hash: 't_3_4',
           },
         ],
