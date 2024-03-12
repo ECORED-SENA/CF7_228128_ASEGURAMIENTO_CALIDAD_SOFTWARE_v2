@@ -93,7 +93,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: '',
+        titulo: 'Normalización',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -122,7 +122,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: '',
+        titulo: 'Sistema gestor de base de datos',
         desarrolloContenidos: true,
       },
     ],
@@ -173,31 +173,59 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Conceptos generales de bases de datos',
+      referencia:
+        'Espinosa, A. P. 2014. L6 1 Nociones y modelos de bases de datos. [Video] ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=pPATLxijDfw',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Base datos',
+      significado:
+        'conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Metadatos',
+      significado:
+        'conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas, como el tratamiento de textos, el diseño de gráficos, la resolución de problemas matemáticos, el manejo de bancos de datos.',
+    },
+    {
+      termino: 'Diccionario de datos',
+      significado:
+        'conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Asale y RAE. (2021). Diccionario de la lengua española. ',
+      link: 'https://dle.rae.es/base#CiiosqO',
+    },
+    {
+      referencia:
+        'Kyocera. (2021). Conceptos sobre base de datos orientada a objetos. Kyocera. ',
+      link: 'https://rb.gy/5deqdh',
+    },
+    {
+      referencia:
+        'López, J. C. (2009). Algoritmos y programación (guía para docentes). Eduteka',
+      link: 'http://www.eduteka.org/pdfdir/AlgoritmosProgramacion.pdf',
+    },
+    {
+      referencia:
+        'Microsoft. (2021). Descripción de normalización de base de datos. Microsoft.  ',
+      link:
+        'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description',
+    },
+    {
+      referencia:
+        'Resnick, M. (2007). Sembrando las semillas para una sociedad más creativa. Laboratorio de medios de MIT, Massachussets. Eduteka. ',
+      link: 'http://www.eduteka.org/ScratchResnickCreatividad.php',
+    },
+    {
+      referencia:
+        'Silberschatz, A., Korth, H. F., Sudarshan, S., Pérez, F. S., Santiago, A. I., y Sánchez, A. V. (2006). Fundamentos de bases de datos. McGrawHill.',
       link: '',
     },
   ],
@@ -221,9 +249,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Henry Eduardo Bastidas Paruma',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Cauca, Centro de teleinformática y producción industrial',
+        },
+        {
+          nombre: 'Peter Emerson Pinchao Solís',
+          cargo: 'Experto temático',
+          centro:
+            'Regional Cauca, Centro de teleinformática y producción industrial',
+        },
+        {
+          nombre: 'Oscar Absalón Guevara',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Centro de la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -231,23 +283,18 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

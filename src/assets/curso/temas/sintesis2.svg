@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="977" viewBox="0 0 1240 977">
+  <g id="Grupo_1095365" data-name="Grupo 1095365" transform="translate(-180.333 -311)">
+    <rect id="Rectángulo_383001" data-name="Rectángulo 383001" width="505" height="43" transform="translate(547.333 311)" fill="#ffce00"/>
+    <text id="Conceptos_generales_de_bases_de_datos" data-name="Conceptos generales de bases de datos" transform="translate(800.333 339)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-160.642" y="0">Conceptos generales de bases de datos</tspan></text>
+    <rect id="Rectángulo_383013" data-name="Rectángulo 383013" width="335" height="111" transform="translate(455.333 531)" fill="#bae9d9"/>
+    <text id="Ejemplos:_Hojas_de_cálculo_archivos_organizados_listas_en_smartphones." data-name="Ejemplos: Hojas de cálculo, archivos 
+organizados, listas en 
+smartphones." transform="translate(623.333 567)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-147.647" y="0">Ejemplos: Hojas de cálculo, archivos </tspan><tspan x="-89.064" y="25">organizados, listas en </tspan><tspan font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-54.404" y="50">smartphones</tspan><tspan y="50" font-family="Roboto-Regular, Roboto" font-style="normal">.</tspan></tspan></text>
+    <rect id="Rectángulo_383510" data-name="Rectángulo 383510" width="335" height="111" transform="translate(810.333 530)" fill="#bae9d9"/>
+    <text id="SGBD:_Herramienta_para_definir_crear_mantener_y_controlar_acceso_a_las_bases_de_datos." data-name="SGBD: Herramienta para definir, crear, 
+mantener y controlar acceso a 
+las bases de datos." transform="translate(978.333 566)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="-151.497" y="0">SGBD: Herramienta para definir, crear, </tspan><tspan x="-123.354" y="25">mantener y controlar acceso a </tspan><tspan x="-77.208" y="50">las bases de datos.</tspan></text>
+    <path id="Trazado_829955" data-name="Trazado 829955" d="M-12146.766-9747v-28.4h382.433v28.4" transform="translate(12755.599 10277)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829956" data-name="Trazado 829956" d="M-11964.333-9923v148.586" transform="translate(12764.333 10277)" fill="none" stroke="#707070" stroke-width="1"/>
+    <rect id="Rectángulo_383004" data-name="Rectángulo 383004" width="440" height="64" transform="translate(580.333 395)" fill="#add3fd"/>
+    <text id="Conjunto_organizado_de_datos_para_acceso_rápido." data-name="Conjunto organizado de datos para acceso rápido." transform="translate(800.333 434)" fill="#12263f" font-size="18" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-202.192" y="0">Conjunto organizado de datos para acceso rápido.</tspan></text>
+    <path id="Trazado_829957" data-name="Trazado 829957" d="M-12526.664-9412v-177.551h1132.48V-9412" transform="translate(12764.333 10277.004)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829958" data-name="Trazado 829958" d="M-11764.333-9636v47.086" transform="translate(12764.333 10277)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829959" data-name="Trazado 829959" d="M-11764.333-9636v524.906" transform="translate(12164.666 10324.086)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829960" data-name="Trazado 829960" d="M-11764.333-9636v176.914" transform="translate(12323.666 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829961" data-name="Trazado 829961" d="M-11764.333-9636v176.914" transform="translate(12461.666 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829962" data-name="Trazado 829962" d="M-11764.333-9636v176.914" transform="translate(12612.666 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829963" data-name="Trazado 829963" d="M-11764.333-9636v176.914" transform="translate(12764.333 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829964" data-name="Trazado 829964" d="M-11764.333-9636v176.914" transform="translate(12889.333 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Trazado_829965" data-name="Trazado 829965" d="M-11764.333-9636v176.914" transform="translate(13020.166 10324.09)" fill="none" stroke="#707070" stroke-width="1"/>
+    <rect id="Rectángulo_383511" data-name="Rectángulo 383511" width="135" height="221" transform="translate(180.333 865)" fill="#dcecfe"/>
+    <text id="Metadatos:_Descripción_precisa_de_los_datos_ejemplo_con_base_de_datos_de_llamadas_telefónicas_._" data-name="Metadatos: Descripción precisa de los datos (ejemplo con base de datos de llamadas telefónicas).
+" transform="translate(195.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Metadatos: </tspan><tspan x="0" y="39">Descripción </tspan><tspan x="0" y="63">precisa de los </tspan><tspan x="0" y="87">datos (ejemplo </tspan><tspan x="0" y="111">con base de </tspan><tspan x="0" y="135">datos de </tspan><tspan x="0" y="159">llamadas </tspan><tspan x="0" y="183">telefónicas).</tspan><tspan x="0" y="207"></tspan></text>
+    <rect id="Rectángulo_383520" data-name="Rectángulo 383520" width="135" height="169" transform="translate(180.333 1100)" fill="#dcecfe"/>
+    <text id="Diccionario_de_datos:_Aporta_estructura_y_uso_de_cada_dato_dentro_de_la_organización._" data-name="Diccionario de datos: Aporta estructura y uso de cada dato dentro de la organización.
+" transform="translate(191.333 1117)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Diccionario de </tspan><tspan x="0" y="39">datos: Aporta </tspan><tspan x="0" y="63">estructura y uso </tspan><tspan x="0" y="87">de cada dato </tspan><tspan x="0" y="111">dentro de la </tspan><tspan x="0" y="135">organización.</tspan><tspan x="0" y="159"></tspan></text>
+    <rect id="Rectángulo_383521" data-name="Rectángulo 383521" width="135" height="166" transform="translate(322.333 865)" fill="#f6f6f6"/>
+    <text id="Variedad_según_el_SGBD:_ORACLE_PostgreSQL_MySQL_SQLServer._" data-name="Variedad según el SGBD: ORACLE, PostgreSQL, MySQL, SQLServer.
+" transform="translate(337.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Variedad según </tspan><tspan x="0" y="39">el SGBD: </tspan><tspan x="0" y="63">ORACLE, </tspan><tspan x="0" y="87">PostgreSQL, </tspan><tspan x="0" y="111">MySQL, </tspan><tspan x="0" y="135">SQLServer.</tspan></text>
+    <rect id="Rectángulo_383522" data-name="Rectángulo 383522" width="135" height="169" transform="translate(322.333 1044)" fill="#f6f6f6"/>
+    <text id="Restricción_de_longitud_y_no_nulidad:_aseguran_datos_consistentes_y_obligatorios._" data-name="Restricción de longitud y no nulidad: aseguran datos consistentes y obligatorios.
+" transform="translate(333.333 1061)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Restricción de </tspan><tspan x="0" y="39">longitud y no </tspan><tspan x="0" y="63">nulidad: </tspan><tspan x="0" y="87">aseguran datos </tspan><tspan x="0" y="111">consistentes y </tspan><tspan x="0" y="135">obligatorios.</tspan></text>
+    <rect id="Rectángulo_383523" data-name="Rectángulo 383523" width="135" height="275" transform="translate(470.333 865)" fill="#dcecfe"/>
+    <text id="Estructura_jerárquica_en_red_relacional_multidimensional_orientada_a_objetos:_adaptadas_a_diferentes_aplicaciones_y_optimizaciones._" data-name="Estructura jerárquica, en red, relacional, multidimensional, orientada a objetos: adaptadas a diferentes aplicaciones y optimizaciones.
+" transform="translate(485.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Estructura </tspan><tspan x="0" y="39">jerárquica, en </tspan><tspan x="0" y="63">red, relacional, </tspan><tspan x="0" y="87">multidimension</tspan><tspan x="0" y="111">al, orientada a </tspan><tspan x="0" y="135">objetos: </tspan><tspan x="0" y="159">adaptadas a </tspan><tspan x="0" y="183">diferentes </tspan><tspan x="0" y="207">aplicaciones y </tspan><tspan x="0" y="231">optimizaciones</tspan></text>
+    <rect id="Rectángulo_383524" data-name="Rectángulo 383524" width="119" height="126" transform="translate(615.333 865)" fill="#f6f6f6"/>
+    <text id="Por_variabilidad:_estáticas_vs._dinámicas._" data-name="Por variabilidad: estáticas vs. dinámicas.
+" transform="translate(630.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Por </tspan><tspan x="0" y="39">variabilidad: </tspan><tspan x="0" y="63">estáticas vs. </tspan><tspan x="0" y="87">dinámicas.</tspan></text>
+    <rect id="Rectángulo_383525" data-name="Rectángulo 383525" width="119" height="105" transform="translate(618.333 1003)" fill="#f6f6f6"/>
+    <text id="Por_contenido:_documentales_deductivas._" data-name="Por contenido: documentales, deductivas.
+" transform="translate(625.333 1016)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Por contenido: </tspan><tspan x="0" y="39">documentales</tspan><tspan x="0" y="63">, deductivas.</tspan></text>
+    <g id="Grupo_1095362" data-name="Grupo 1095362" transform="translate(2 -4)">
+      <rect id="Rectángulo_383512" data-name="Rectángulo 383512" width="138" height="110" transform="translate(320.333 720)" fill="#dee4f0"/>
+      <text id="Tipos_de_datos_y_restricción_de_no_nulidad_" data-name="Tipos de datos y restricción de no nulidad
+" transform="translate(332.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Tipos de datos </tspan><tspan x="0" y="39">y restricción de </tspan><tspan x="0" y="63">no nulidad</tspan></text>
+    </g>
+    <rect id="Rectángulo_383526" data-name="Rectángulo 383526" width="153" height="172" transform="translate(742.333 865)" fill="#dcecfe"/>
+    <text id="Funciones:_definición_inserción_actualización_consulta_control_de_acceso._" data-name="Funciones: definición, inserción, actualización, consulta, control de acceso.
+" transform="translate(757.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Funciones: </tspan><tspan x="0" y="39">definición, </tspan><tspan x="0" y="63">inserción, </tspan><tspan x="0" y="87">actualización, </tspan><tspan x="0" y="111">consulta, control </tspan><tspan x="0" y="135">de acceso.</tspan><tspan x="0" y="159"></tspan></text>
+    <rect id="Rectángulo_383527" data-name="Rectángulo 383527" width="127" height="196" transform="translate(907.333 865)" fill="#f6f6f6"/>
+    <text id="Entidades_atributos_relaciones:_conceptos_para_modelar_bases_de_datos_relacionales._" data-name="Entidades, atributos, relaciones: conceptos para modelar bases de datos relacionales.
+" transform="translate(914.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Entidades, </tspan><tspan x="0" y="39">atributos, </tspan><tspan x="0" y="63">relaciones: </tspan><tspan x="0" y="87">conceptos para </tspan><tspan x="0" y="111">modelar bases </tspan><tspan x="0" y="135">de datos </tspan><tspan x="0" y="159">relacionales.</tspan><tspan x="0" y="183"></tspan></text>
+    <rect id="Rectángulo_383528" data-name="Rectángulo 383528" width="127" height="148" transform="translate(906.333 1070)" fill="#f6f6f6"/>
+    <text id="Relaciones:_uno_a_uno_uno_a_muchos_muchos_a_muchos._" data-name="Relaciones: uno a uno, uno a muchos, muchos a muchos.
+" transform="translate(915.333 1087)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Relaciones: </tspan><tspan x="0" y="39">uno a uno, uno </tspan><tspan x="0" y="63">a muchos, </tspan><tspan x="0" y="87">muchos a </tspan><tspan x="0" y="111">muchos.</tspan><tspan x="0" y="135"></tspan></text>
+    <rect id="Rectángulo_383529" data-name="Rectángulo 383529" width="126" height="126" transform="translate(1043.333 865)" fill="#dcecfe"/>
+    <text id="Objetivo:_evitar_redundancia_y_dependencia_incoherente._" data-name="Objetivo: evitar redundancia y dependencia incoherente.
+" transform="translate(1050.333 882)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Objetivo: evitar </tspan><tspan x="0" y="39">redundancia y </tspan><tspan x="0" y="63">dependencia </tspan><tspan x="0" y="87">incoherente.</tspan></text>
+    <rect id="Rectángulo_383530" data-name="Rectángulo 383530" width="126" height="126" transform="translate(1043.333 999)" fill="#dcecfe"/>
+    <text id="Formas_normales:_primera_segunda_tercera._" data-name="Formas normales: primera, segunda, tercera.
+" transform="translate(1050.333 1006)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Formas </tspan><tspan x="0" y="39">normales: </tspan><tspan x="0" y="63">primera, </tspan><tspan x="0" y="87">segunda, </tspan><tspan x="0" y="111">tercera.</tspan><tspan x="0" y="135"></tspan></text>
+    <rect id="Rectángulo_383531" data-name="Rectángulo 383531" width="112" height="216" transform="translate(1180.333 865)" fill="#f6f6f6"/>
+    <text id="De_entidad_referencial_y_otras_restricciones_para_mantener_la_calidad_de_los_datos._" data-name="De entidad, referencial, y otras restricciones para mantener la calidad de los datos.
+" transform="translate(1187.333 877)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">De entidad, </tspan><tspan x="0" y="39">referencial, y </tspan><tspan x="0" y="63">otras </tspan><tspan x="0" y="87">restricciones </tspan><tspan x="0" y="111">para </tspan><tspan x="0" y="135">mantener la </tspan><tspan x="0" y="159">calidad de </tspan><tspan x="0" y="183">los datos.</tspan><tspan x="0" y="207"></tspan></text>
+    <rect id="Rectángulo_383532" data-name="Rectángulo 383532" width="112" height="172" transform="translate(1301.333 865)" fill="#dcecfe"/>
+    <text id="SQL:_Lenguaje_para_gestionar_y_operar_bases_de_datos._" data-name="SQL: Lenguaje para gestionar y operar bases de datos.
+" transform="translate(1308.333 877)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">SQL: </tspan><tspan x="0" y="39">Lenguaje </tspan><tspan x="0" y="63">para </tspan><tspan x="0" y="87">gestionar y </tspan><tspan x="0" y="111">operar bases </tspan><tspan x="0" y="135">de datos.</tspan><tspan x="0" y="159"></tspan></text>
+    <g id="Grupo_1095361" data-name="Grupo 1095361" transform="translate(5 -4)">
+      <rect id="Rectángulo_383513" data-name="Rectángulo 383513" width="136" height="110" transform="translate(464.333 720)" fill="#dee4f0"/>
+      <text id="Tipos_de_bases_de_datos" data-name="Tipos de bases de datos" transform="translate(476.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Tipos de bases </tspan><tspan x="0" y="39">de datos</tspan></text>
+    </g>
+    <g id="Grupo_1095360" data-name="Grupo 1095360" transform="translate(9 -4)">
+      <rect id="Rectángulo_383514" data-name="Rectángulo 383514" width="118" height="110" transform="translate(606.333 720)" fill="#dee4f0"/>
+      <text id="Clasificación_de_bases_de_datos_" data-name="Clasificación de bases de datos
+" transform="translate(618.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Clasificación </tspan><tspan x="0" y="39">de bases de </tspan><tspan x="0" y="63">datos</tspan></text>
+    </g>
+    <g id="Grupo_1095359" data-name="Grupo 1095359" transform="translate(14 -4)">
+      <rect id="Rectángulo_383515" data-name="Rectángulo 383515" width="152" height="110" transform="translate(729.333 720)" fill="#dee4f0"/>
+      <text id="Sistema_de_Gestión_de_Bases_de_Datos_SGBD_" data-name="Sistema de Gestión de Bases de Datos (SGBD)
+" transform="translate(741.333 728)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Sistema de </tspan><tspan x="0" y="39">Gestión de </tspan><tspan x="0" y="63">Bases de Datos </tspan><tspan x="0" y="87">(SGBD)</tspan></text>
+    </g>
+    <g id="Grupo_1095358" data-name="Grupo 1095358" transform="translate(19 -4)">
+      <rect id="Rectángulo_383516" data-name="Rectángulo 383516" width="129" height="110" transform="translate(886.333 720)" fill="#dee4f0"/>
+      <text id="Modelo_Entidad-Relación_" data-name="Modelo Entidad-Relación
+" transform="translate(898.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Modelo </tspan><tspan x="0" y="39">Entidad-</tspan><tspan x="0" y="63">Relación</tspan></text>
+    </g>
+    <g id="Grupo_1095357" data-name="Grupo 1095357" transform="translate(44 -4)">
+      <rect id="Rectángulo_383517" data-name="Rectángulo 383517" width="125" height="110" transform="translate(1000.333 720)" fill="#dee4f0"/>
+      <text id="Normalización_y_diseño_relacional_" data-name="Normalización y diseño relacional
+" transform="translate(1012.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Normalización </tspan><tspan x="0" y="39">y diseño </tspan><tspan x="0" y="63">relacional</tspan></text>
+    </g>
+    <g id="Grupo_1095356" data-name="Grupo 1095356" transform="translate(46 -4)">
+      <rect id="Rectángulo_383518" data-name="Rectángulo 383518" width="111" height="110" transform="translate(1131.333 720)" fill="#dee4f0"/>
+      <text id="Reglas_de_integridad_" data-name="Reglas de integridad
+" transform="translate(1143.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Reglas de </tspan><tspan x="0" y="39">integridad</tspan><tspan x="0" y="63"></tspan></text>
+    </g>
+    <g id="Grupo_1095355" data-name="Grupo 1095355" transform="translate(-25 -4)">
+      <rect id="Rectángulo_383519" data-name="Rectángulo 383519" width="124" height="110" transform="translate(1321.333 720)" fill="#dee4f0"/>
+      <text id="Lenguajes_de_los_SGBD" data-name="Lenguajes de los SGBD" transform="translate(1333.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Lenguajes de </tspan><tspan x="0" y="39">los SGBD</tspan></text>
+    </g>
+    <g id="Grupo_1095363" data-name="Grupo 1095363" transform="translate(0 -4)">
+      <rect id="Rectángulo_383511-2" data-name="Rectángulo 383511" width="135" height="110" transform="translate(180.333 720)" fill="#dee4f0"/>
+      <text id="Metadatos_y_diccionario_de_datos_" data-name="Metadatos y diccionario de datos
+" transform="translate(195.333 737)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Metadatos y </tspan><tspan x="0" y="39">diccionario de </tspan><tspan x="0" y="63">datos</tspan></text>
+    </g>
+  </g>
+</svg>

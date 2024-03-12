@@ -516,6 +516,39 @@
                       li.d-flex
                         i.fas.fa-circle.fa-xs
                         p.mb-0 Muchas de estas bases de datos de almacenan en cubos para su análisis, se las conoce como OLAP, es el acrónimo en inglés de procesamiento analítico en línea #[em (On-Line Analytical Processing).]
+
+                tr
+                  td Según la variabilidad de los datos.
+                  td Bases de datos dinámicas.
+                  td 
+                    ul.lista-ul--color
+                      li.d-flex
+                        i.fas.fa-circle.fa-xs
+                        p.mb-0 Estos datos se almacenan y pueden ser modificados, agregados, borrados y consultados en cualquier momento, por ejemplo: un sistema de facturación o el sistema Sofiaplus del SENA.
+                      li.d-flex
+                        i.fas.fa-circle.fa-xs
+                        p.mb-0 A estos sistemas se les denomina transaccionales, porque cada operación de guardar, borrar o editar se configura como una transacción. OLTP es la sigla en inglés de Procesamiento de Transacciones en Línea #[em (On-Line Transaction Processing).]
+
+
+                tr
+                  td Según el contenido
+                  td Bases de datos documentales.
+                  td 
+                    ul.lista-ul--color
+                      li.d-flex
+                        i.fas.fa-circle.fa-xs
+                        p.mb-0 Permiten la indexación a texto completo, y en líneas generales realizar búsquedas más potentes.
+                      
+
+                tr
+                  td Según el contenido
+                  td Base de datos deductivos.
+                  td 
+                    ul.lista-ul--color
+                      li.d-flex
+                        i.fas.fa-circle.fa-xs
+                        p.mb-0 Un sistema de base de datos deductivos es un sistema de base de datos, pero con la diferencia de que permite hacer deducciones a través de inferencias. Se basa principalmente en reglas y hechos que son almacenados en la base de datos. También las bases de datos deductivas son llamadas base de datos lógica, a raíz de que se basan en lógica matemática.
+                        
     p.mb-5(data-aos='fade-right') Pueden existir otras clasificaciones orientadas al ámbito de uso, sin embargo, se presentan las más comunes en el ejercicio del desarrollo de software. La base de datos relacionales es de obligatorio dominio en cualquiera de los casos, ya que los conceptos de esta son reutilizables en casi todos los otros tipos.
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
