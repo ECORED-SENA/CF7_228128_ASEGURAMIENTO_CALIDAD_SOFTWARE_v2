@@ -15,16 +15,30 @@
             p.mb-0 Las bases de datos relaciones, inicialmente no son fáciles de modelar, por lo que se requiere de cierto nivel de abstracción, es decir, se va ocultando la complejidad del diseño de la base de datos, primero analizando el requerimiento desde un punto de vista conceptual, entendido como las necesidades de la empresa o del sistema de información, luego se va analizando desde el punto de vista de la lógica de los datos y, finalmente, se analiza físicamente como se almacenarán los datos. 
     .cajon-b.color-primario.p-3.mb-5
       p.mb-0 Permite representar la información mediante tres elementos fundamentales: entidades #[b (objetos como personas o cuentas, simbolizados con rectángulos), atributos (características de las entidades, representadas con elipses) y relaciones (vínculos entre entidades, ilustrados con rombos).] Este modelo proporciona una estructura clara para organizar datos del mundo real, como se presenta a continuación: 
-    ImagenInfografica.color-acento-botones.mb-5
+    ImagenInfografica.color-acento-botones.mb-5.d-none.d-md-block
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/20.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/20d.svg', alt='Diagrama de entidad-relación que muestra dos entidades, cada una con tres atributos conectados. Entre las entidades hay un rombo etiquetado como "Relaciones" que las une, indicando una asociación entre ellas')
       .tarjeta.bg-white.p-3(x="14%" y="47%" numero="+")
         p Las entidades están descritas por un conjunto de atributos, por ejemplo, una persona puede tener estos atributos: #[b nombres, apellidos, edad, documento de identidad (identificación);] o la cuenta bancaria puede tener los siguientes atributos: #[b número de cuenta, saldo, fecha de creación;] se representan con una elipse.
       .tarjeta.bg-white.p-3(x="35%" y="47%" numero="+")
         p El modelo de datos entidad-relación (E-R) está basado en una percepción del mundo real que consta de una colección de  objetos básicos, llamados entidades, y de las relaciones entre  estos objetos. Una entidad es una «cosa» u «objeto» en el  mundo real que es distinguible de otros objetos. Por ejemplo,  cada persona es una entidad, y las cuentas bancarias pueden  ser consideradas entidades (Henry, 2002) y se representa con  un rectángulo.
       .tarjeta.bg-white.p-3(x="50%" y="47%" numero="+")
         p Una relación es una asociación entre varias entidades. Por ejemplo, una relación titular asocia un cliente con cada cuenta que tiene (de la que es titular). Se verá más claro en un diagrama, pero antes se deben considerar los siguientes elementos y se representa con un rombo. 
+    
+    
+    ImagenInfografica.color-acento-botones.mb-5.d-md-none
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/20r.svg', alt='Diagrama de entidad-relación que muestra dos entidades, cada una con tres atributos conectados. Entre las entidades hay un rombo etiquetado como "Relaciones" que las une, indicando una asociación entre ellas')
+      .tarjeta.bg-white.p-3(x="80%" y="0%" numero="+")
+        p Las entidades están descritas por un conjunto de atributos, por ejemplo, una persona puede tener estos atributos: #[b nombres, apellidos, edad, documento de identidad (identificación);] o la cuenta bancaria puede tener los siguientes atributos: #[b número de cuenta, saldo, fecha de creación;] se representan con una elipse.
+      .tarjeta.bg-white.p-3(x="28%" y="25%" numero="+")
+        p El modelo de datos entidad-relación (E-R) está basado en una percepción del mundo real que consta de una colección de  objetos básicos, llamados entidades, y de las relaciones entre  estos objetos. Una entidad es una «cosa» u «objeto» en el  mundo real que es distinguible de otros objetos. Por ejemplo,  cada persona es una entidad, y las cuentas bancarias pueden  ser consideradas entidades (Henry, 2002) y se representa con  un rectángulo.
+      .tarjeta.bg-white.p-3(x="28%" y="44%" numero="+")
+        p Una relación es una asociación entre varias entidades. Por ejemplo, una relación titular asocia un cliente con cada cuenta que tiene (de la que es titular). Se verá más claro en un diagrama, pero antes se deben considerar los siguientes elementos y se representa con un rombo. 
+    
+    
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .cajon-b.color-primario.p-3.mb-5
@@ -33,108 +47,118 @@
             br
             |Se debe tener en cuenta que el modelo relacional convierte las entidades en tablas, por lo tanto, se puede poner como ejemplo que las entidades personas se conviertan en tablas, como se presenta a continuación: 
       .col-lg-5.col-7: img(src='@/assets/curso/temas/21.png', alt='')
-    .row.justify-content-beetwen.mb-5
-      .col-lg-5
-        .tabla-a.color-acento-botones.mb-5
-          table
-            thead(style="background-color: #ffce00 ").border-0
-              tr
-                th identificacion
-                th nombres
-                th apellidos
-                th Edad
-            tbody
-              tr
-                td 8.127.346
-                td Ana lis
-                td Mendez
-                td 34
-              tr
-                td 212.394.762
-                td Jose Omar
-                td Ciano 
-                td 28
-              tr
-                td 545.232.546
-                td Luis Dario
-                td Marquez
-                td 21
-              tr
-                td 125.446.732
-                td Armando 
-                td Bronca Segura
-                td 35
-              tr
-                td 33.565.236.787
-                td Vistor José
-                td Diento Paz
-                td 24
-              tr
-                td 2.343.554.768
-                td Jose Nicolás
-                td Timado Ruiz
-                td 19
-              tr
-                td 45.456.778
-                td Andrea
-                td Martinez
-                td 36
-      .col-lg-6
-        .tabla-a.color-acento-botones.mb-5
-          table
-            thead(style="background-color: #ffce00 ").border-0
-              tr
-                th numero_cuenta
-                th titular
-                th saldo
-                th Fecha_creacion
-            tbody
-              tr
-                td 19.283.746
-                td 7
-                td $ 2.589.954,00
-                td 25/08/1998
-              tr
-                td 67.789.901
-                td 1
-                td $ 23.465.212,00
-                td 26/08/2001
-              tr
-                td 32.112.312
-                td 5
-                td $ 2.343.242,00
-                td 27/08/2004
-              tr
-                td 41.928.374
-                td 2
-                td $ 2.343.423,00 
-                td  31/08/2013
 
-              tr
-                td 38.342.657
-                td 6
-                td $ 8.965.211,00
-                td 30/08/2010
-              tr
-                td 32.443.171
-                td 1
-                td $ 11.172.594,33 
-                td 22/06/2001
-              tr
-                td 34.920.608
-                td 5
-                td $  14.483.578,83 
-                td 1/09/2016
-              tr
-                td 17.980.455
-                td 3
-                td $ 17.794.563,33 
-                td 3/09/2019
-              tr
-                td 26.754.825
-                td 4
-                td $  21.105.547,83
-                td 12/04/2022
+
+    .fondo-mn.p-5.mn.mb-5
+      .row.justify-content-center.mb-5
+        .col-lg-5
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 6.
+            span Persona en una entidad relación
+          .tabla-a.color-acento-botones.mb-5
+            table
+              thead(style="background-color: #ffce00 ").border-0
+                tr
+                  th identificacion
+                  th nombres
+                  th apellidos
+                  th Edad
+              tbody
+                tr
+                  td 8.127.346
+                  td Ana lis
+                  td Mendez
+                  td 34
+                tr
+                  td 212.394.762
+                  td Jose Omar
+                  td Ciano 
+                  td 28
+                tr
+                  td 545.232.546
+                  td Luis Dario
+                  td Marquez
+                  td 21
+                tr
+                  td 125.446.732
+                  td Armando 
+                  td Bronca Segura
+                  td 35
+                tr
+                  td 33.565.236.787
+                  td Vistor José
+                  td Diento Paz
+                  td 24
+                tr
+                  td 2.343.554.768
+                  td Jose Nicolás
+                  td Timado Ruiz
+                  td 19
+                tr
+                  td 45.456.778
+                  td Andrea
+                  td Martinez
+                  td 36
+      .row.justify-content-center.mb-5
+        .col-lg-5
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Tabla 7.
+            span Cuenta en una entidad relación
+          .tabla-a.color-acento-botones.mb-5
+            table
+              thead(style="background-color: #ffce00 ").border-0
+                tr
+                  th numero_cuenta
+                  th titular
+                  th saldo
+                  th Fecha_creacion
+              tbody
+                tr
+                  td 19.283.746
+                  td 7
+                  td $ 2.589.954,00
+                  td 25/08/1998
+                tr
+                  td 67.789.901
+                  td 1
+                  td $ 23.465.212,00
+                  td 26/08/2001
+                tr
+                  td 32.112.312
+                  td 5
+                  td $ 2.343.242,00
+                  td 27/08/2004
+                tr
+                  td 41.928.374
+                  td 2
+                  td $ 2.343.423,00 
+                  td  31/08/2013
+
+                tr
+                  td 38.342.657
+                  td 6
+                  td $ 8.965.211,00
+                  td 30/08/2010
+                tr
+                  td 32.443.171
+                  td 1
+                  td $ 11.172.594,33 
+                  td 22/06/2001
+                tr
+                  td 34.920.608
+                  td 5
+                  td $  14.483.578,83 
+                  td 1/09/2016
+                tr
+                  td 17.980.455
+                  td 3
+                  td $ 17.794.563,33 
+                  td 3/09/2019
+                tr
+                  td 26.754.825
+                  td 4
+                  td $  21.105.547,83
+                  td 12/04/2022
     p.mb-5(data-aos='fade-right') Las tablas presentan cada una un conjunto de registros, la tabla 6 muestra 6 registros y la tabla 7 muestra 9 de ellas, cada uno de estos registros representa un objeto, es decir, de la tabla persona hay 6 (objetos) o personas, a la agrupación de los datos de cada registro se le llama TUPLA y, en términos sencillos, una #[span.resalte2 TUPLA] de una base datos es el conjunto de todos los atributos (columnas) de una fila.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -161,132 +185,145 @@
             span Claves de las entidades persona y cuenta 
           img(src='@/assets/curso/temas/23.svg', alt='La figura presenta un diagrama de un modelo de base de datos que conecta las entidades persona y cuenta a través de la relación titular. La entidad persona incluye atributos como nombres, apellidos, edad e identificación, mientras que la entidad cuenta incluye número de cuenta, saldo y fecha de creación. Este diagrama se utiliza para representar cómo se almacena y se relaciona la información de clientes y sus cuentas bancarias en un sistema informático.').mb-4
           p.mb-5(data-aos='fade-right') #[span.resalte2 Nótese como los atributos identificacion y numero_cuenta tiene subrayada la palabra identificadora del atributo], representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
-    h4 Claves candidata, superclave y clave primaria 
-    p.mb-5(data-aos='fade-right') Se supone el caso ahora que el banco es internacional, que es un banco moderno y solo diseñado para transacciones vía internet o virtuales, por lo tanto, el correo del cliente (persona) es necesario y obligatorio.
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
-          .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/24.svg', alt=''  )
-          .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/24.svg', alt=''  )
-          .col-lg-10(style="z-index: 0")
-            .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
-              p.mb-0 En este caso ocurren un par de asuntos a analizar: al ser internacional el banco, puede existir un cliente en un país con el mismo número de identificación de otro cliente en otro país, por lo tanto, el atributo identificación ya no puede ser una clave de la entidad, sin embargo, es importante y obligatorio saber a qué país corresponde cada cliente, el conjunto de datos identificación y país y si ambos cumplen con el criterio de unidad, porque no existen dos personas en el mismo país con el mismo número de identificación. 
-    h4 Clave compuesta
-    p.mb-5(data-aos='fade-right') Si se escogiera el conjunto de atributos identificación y país como clave de la entidad, se está haciendo una clave compuesta porque es un conjunto de más de un atributo el que se usa para este fin.
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
-          .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/25.svg', alt=''  )
-          .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/25.svg', alt=''  )
-          .col-lg-10(style="z-index: 0")
-            .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
-              p.mb-0 El otro aspecto a considerar es que se puede utilizar el correo electrónico como clave, dado que no existen dos usuarios con el mismo correo electrónico. Esto es válido si se estableció como regla del banco que cada cliente debe tener un correo electrónico distinto al de los demás. 
-    h5 Estos dos casos se ilustran en la figura siguiente.
+
+    .fondo-mn5.p-5.mn.mb-5      
+      h4 Claves candidata, superclave y clave primaria 
+      p.mb-5(data-aos='fade-right') Se supone el caso ahora que el banco es internacional, que es un banco moderno y solo diseñado para transacciones vía internet o virtuales, por lo tanto, el correo del cliente (persona) es necesario y obligatorio.
+      .row.justify-content-center.mb-5
+        .col-lg-10 
+          .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
+            .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/24.svg', alt=''  )
+            .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/24.svg', alt=''  )
+            .col-lg-10(style="z-index: 0")
+              .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
+                p.mb-0 En este caso ocurren un par de asuntos a analizar: al ser internacional el banco, puede existir un cliente en un país con el mismo número de identificación de otro cliente en otro país, por lo tanto, el atributo identificación ya no puede ser una clave de la entidad, sin embargo, es importante y obligatorio saber a qué país corresponde cada cliente, el conjunto de datos identificación y país y si ambos cumplen con el criterio de unidad, porque no existen dos personas en el mismo país con el mismo número de identificación. 
+    
+
+    .fondo-mn5.p-5.mn.mb-5   
+      h4 Clave compuesta
+      p.mb-5(data-aos='fade-right') Si se escogiera el conjunto de atributos identificación y país como clave de la entidad, se está haciendo una clave compuesta porque es un conjunto de más de un atributo el que se usa para este fin.
+      .row.justify-content-center.mb-5
+        .col-lg-10 
+          .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
+            .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/25.svg', alt=''  )
+            .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/25.svg', alt=''  )
+            .col-lg-10(style="z-index: 0")
+              .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
+                p.mb-0 El otro aspecto a considerar es que se puede utilizar el correo electrónico como clave, dado que no existen dos usuarios con el mismo correo electrónico. Esto es válido si se estableció como regla del banco que cada cliente debe tener un correo electrónico distinto al de los demás. 
+
+    h5.mb-5 Estos dos casos se ilustran en la figura siguiente.
     .row.justify-content-center.mb-5
       .col-lg-10 
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 2. 
           span Claves candidatas
         img(src='@/assets/curso/temas/26.svg', alt='La figura presenta dos diagramas de entidad con atributos que representan claves candidatas para la entidad persona. Ambos diagramas listan atributos como nombres, apellidos, correo, edad, país e identificación. Estos diagramas sugieren posibles conjuntos de atributos que podrían usarse para identificar de manera única una instancia de la entidad persona en una base de datos.')
-    h4 Clave candidata
-    p.mb-5(data-aos='fade-right') Los dos caminos propuestos en la figura 2 son válidos, y se denominan claves candidatas porque con ambas se puede lograr el principio de unicidad, y es potestad de cada diseñador o analista de sistemas determinar cuál de las dos emplear.
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
-          .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/27.svg', alt=''  )
-          .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/27.svg', alt=''  )
-          .col-lg-10(style="z-index: 0")
-            .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
-              p.mb-0 Existe otro tipo de solución y es asignarle un atributo identificador, a la entidad persona que se encargue exclusivamente de identificar inequívocamente cada tupla o fila, a este atributo se le puede llamar id_persona que sería un número que el programa o software para el que se está desarrollando la base le asignará a cada cliente, cada vez que se registre por primera vez, los datos de una persona (generalmente una secuencia).
-    p.mb-5(data-aos='fade-right') De esta forma, se tendrían 3 claves candidatas; la figura 3 muestra cómo sería la entidad y la tabla que representa.  
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3. 
-          span Claves candidatas secuencia
-        img(src='@/assets/curso/temas/28.svg', alt='La figura presenta un diagrama de la entidad persona con varios atributos conectados a ella. Los atributos listados son nombres, apellidos, correo, edad, país, identificación y id_persona. Este diagrama probablemente se utiliza en el contexto de una base de datos para ilustrar los atributos que podrían ser considerados como claves candidatas.')
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .tabla-a.color-acento-botones.mb-5
-          table
-            thead(style="background-color: #ffce00 ").border-0
-              tr
-                th id_persona
-                th Pais
-                th identificacion
-                th correo
-                th nombres
-                th apellidos
-                th edad
-            tbody
-              tr
-                td 1
-                td colombia
-                td 8.127.346
-                td ana@rmail.com
-                td Ana lis
-                td Mendez
-                td 34
-              tr
-                td 2
-                td colombia
-                td 212.394.762
-                td jose@pmail.com
-                td Jose Omar
-                td Ciano 
-                td 28
-              tr
-                td 3
-                td colombia
-                td 545.232.546
-                td luis@jmail.com
-                td Luis Dario
-                td Marquez
-                td 21
-              tr
-                td 4
-                td colombia
-                td 125.446.732
-                td arm@hmail.com
-                td Armando
-                td Bronca Segura
-                td 35
-              tr
-                td 5
-                td colombia
-                td 33.565.236.787
-                td victor@umail.com
-                td Vistor José
-                td Diento Paz
-                td 24
-              tr
-                td 6
-                td colombia
-                td 2.343.554.768
-                td josen@pmail.com
-                td Jose Nicolás
-                td Timado Ruiz
-                td 19
+    
+    .fondo-mn2.p-5.mn.mb-5  
+      h4 Clave candidata
+      p.mb-5(data-aos='fade-right') Los dos caminos propuestos en la figura 2 son válidos, y se denominan claves candidatas porque con ambas se puede lograr el principio de unicidad, y es potestad de cada diseñador o analista de sistemas determinar cuál de las dos emplear.
+      .row.justify-content-center.mb-5
+        .col-lg-10 
+          .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
+            .col-lg-2.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/27.svg', alt=''  )
+            .col-lg-2.col-6.mb-lg-0.mb-3.d-block.d-lg-none: img(src='@/assets/curso/temas/27.svg', alt=''  )
+            .col-lg-10(style="z-index: 0")
+              .tarjeta.p-4.tarjet-icon(style="background-color: #add3fd ")
+                p.mb-0 Existe otro tipo de solución y es asignarle un atributo identificador, a la entidad persona que se encargue exclusivamente de identificar inequívocamente cada tupla o fila, a este atributo se le puede llamar id_persona que sería un número que el programa o software para el que se está desarrollando la base le asignará a cada cliente, cada vez que se registre por primera vez, los datos de una persona (generalmente una secuencia).
+      p.mb-5(data-aos='fade-right') De esta forma, se tendrían 3 claves candidatas; la figura 3 muestra cómo sería la entidad y la tabla que representa.  
+      .row.justify-content-center.mb-5
+        .col-lg-6
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 3. 
+            span Claves candidatas secuencia
+          img(src='@/assets/curso/temas/28.svg', alt='La figura presenta un diagrama de la entidad persona con varios atributos conectados a ella. Los atributos listados son nombres, apellidos, correo, edad, país, identificación y id_persona. Este diagrama probablemente se utiliza en el contexto de una base de datos para ilustrar los atributos que podrían ser considerados como claves candidatas.')
+      .row.justify-content-center.mb-5
+        .col-lg-10 
+          .tabla-a.color-acento-botones.mb-5
+            table
+              thead(style="background-color: #ffce00 ").border-0
+                tr
+                  th id_persona
+                  th Pais
+                  th identificacion
+                  th correo
+                  th nombres
+                  th apellidos
+                  th edad
+              tbody
+                tr
+                  td 1
+                  td colombia
+                  td 8.127.346
+                  td ana@rmail.com
+                  td Ana lis
+                  td Mendez
+                  td 34
+                tr
+                  td 2
+                  td colombia
+                  td 212.394.762
+                  td jose@pmail.com
+                  td Jose Omar
+                  td Ciano 
+                  td 28
+                tr
+                  td 3
+                  td colombia
+                  td 545.232.546
+                  td luis@jmail.com
+                  td Luis Dario
+                  td Marquez
+                  td 21
+                tr
+                  td 4
+                  td colombia
+                  td 125.446.732
+                  td arm@hmail.com
+                  td Armando
+                  td Bronca Segura
+                  td 35
+                tr
+                  td 5
+                  td colombia
+                  td 33.565.236.787
+                  td victor@umail.com
+                  td Vistor José
+                  td Diento Paz
+                  td 24
+                tr
+                  td 6
+                  td colombia
+                  td 2.343.554.768
+                  td josen@pmail.com
+                  td Jose Nicolás
+                  td Timado Ruiz
+                  td 19
 
-              tr
-                td 7
-                td peru
-                td 45.456.778
-                td andrea@email.com
-                td Andrea
-                td Martinez
-                td 36
+                tr
+                  td 7
+                  td peru
+                  td 45.456.778
+                  td andrea@email.com
+                  td Andrea
+                  td Martinez
+                  td 36
     p.mb-5(data-aos='fade-right') Este último enfoque es el más empleado y recomendado por los diseñadores o analistas de software, pues reduce, significativamente, la complejidad del diseño y facilita la relación con otras tablas o entidades. Por lo tanto, se usará cada vez que se tenga oportunidad de hacerlo.
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        h4 Superclave
-        p.mb-0 Es un conjunto de uno o más atributos que, tomados juntos, permiten identificar de forma única una entidad en el conjunto de entidades. Por ejemplo, el atributo id_persona del conjunto de entidades persona es suficiente para distinguir una persona cliente del banco de las otras. Así, id_persona es una superclave. Análogamente, la combinación de identificación y país es una superclave del conjunto de entidades persona. El atributo correo de persona es otra superclave, pero el atributo nombres no lo es porque varias personas podrían tener el mismo nombre.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/29.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
-        h4 Clave primaria
-        p.mb-0 Se emplea el término clave primaria para nombrar una clave candidata que es elegida por el diseñador o analista de la base de datos como clave principal para identificar las tuplas dentro de una entidad. Una clave (primaria, candidata y superclave) es una propiedad del conjunto de entidades, más que de las entidades individuales. Entre dos tuplas individuales en el conjunto no pueden tener el mismo valor en sus atributos clave primaria al mismo tiempo. La designación de una clave primaria es en sí una restricción que modela una característica del mundo real.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/30.png', alt='')
+
+    .fondo-mn5.p-5.mn.mb-5 
+      .row.justify-content-center.mb-5
+        .col.mb-lg-0.mb-3
+          h4 Superclave
+          p.mb-0 Es un conjunto de uno o más atributos que, tomados juntos, permiten identificar de forma única una entidad en el conjunto de entidades. Por ejemplo, el atributo id_persona del conjunto de entidades persona es suficiente para distinguir una persona cliente del banco de las otras. Así, id_persona es una superclave. Análogamente, la combinación de identificación y país es una superclave del conjunto de entidades persona. El atributo correo de persona es otra superclave, pero el atributo nombres no lo es porque varias personas podrían tener el mismo nombre.
+        .col-auto: img(src='@/assets/curso/temas/29b.svg', alt='')
+    
+    
+    .fondo-mn5.p-5.mn.mb-5 
+      .row.justify-content-center.mb-5
+        .col.mb-lg-0.mb-3
+          h4 Clave primaria
+          p.mb-0 Se emplea el término clave primaria para nombrar una clave candidata que es elegida por el diseñador o analista de la base de datos como clave principal para identificar las tuplas dentro de una entidad. Una clave (primaria, candidata y superclave) es una propiedad del conjunto de entidades, más que de las entidades individuales. Entre dos tuplas individuales en el conjunto no pueden tener el mismo valor en sus atributos clave primaria al mismo tiempo. La designación de una clave primaria es en sí una restricción que modela una característica del mundo real.
+        .col-auto: img(src='@/assets/curso/temas/30b.svg', alt='')
     Separador
     .fondo-mn.mn.p-5.mb-4
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -302,7 +339,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 4. 
         span Relaciones de uno a muchos 
-      img(src='@/assets/curso/temas/31.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
+      img(src='@/assets/curso/temas/31b.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
       p.mb-5(data-aos='fade-right') A esta representación se le denomina multiplicidad 1:N y se lee de la siguiente forma:  UNA persona es titular de N cuentas bancarias, de esta forma una persona puede tener N (que puede ser cero, uno o más de una) cuentas bancarias. Se puede leer en forma inversa que el resultado es el mismo: muchas o varias cuentas bancarias pueden tener un mismo titular. 
         br
         br
@@ -315,7 +352,7 @@
           img(src='@/assets/curso/temas/32.png', alt='La figura presenta dos tablas de un modelo relacional de base de datos con la notación de relación uno a muchos (1:N). La primera tabla, etiquetada como ‘Tabla persona’, contiene columnas para id_persona, país, identificación, correo, nombres, apellidos y edad, con datos de ejemplo para cada campo. La segunda tabla, etiquetada como ‘Tabla cuenta’, incluye columnas para número_cuenta, titular (que hace referencia a id_persona de la tabla persona), saldo y fecha_creación, también con datos de ejemplo. Este modelo muestra cómo los registros de individuos en la tabla persona están relacionados con los registros en la tabla cuenta.').mb-4
           p(data-aos='fade-right') Como se evidencia en la figura 5, Ana Lis Méndez es titular de dos cuentas bancarias (67.789.901 y 32.443.171). Todos los datos en la columna titular de la tabla cuenta se denominan LLAVE FORÁNEA de la tabla persona. 
     .titulo-icono.p-2.d-inline-block.mb-4
-        h4.mb-0 REGLA DE MAPEO 1:N de Modelo entidad-relación a modelo relacional:
+        h4.mb-0 REGLA DE MAPEO 1:N de Modelo entidad-relación a modelo relacional
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -323,27 +360,34 @@
             .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.svg', alt='' style='width: 105px' )
             .col-lg-9
               p.mb-0.text-white Una relación de uno a mucho (1:N) se transforma en una columna en la tabla que tiene la multiplicidad de los muchos (cuenta). Y todos los datos de esta columna existen como llave primaria en la tabla que tiene la multiplicidad uno (tabla persona).
+
     p.mb-5(data-aos='fade-right') Existe otro tipo de diagrama que es más utilizado al diseñar una base de datos; este diagrama se conoce como "Diagrama relacional", en el cual las entidades se presentan directamente como tablas y las relaciones son más evidentes. A continuación, se presenta cómo se transforma la representación del diagrama entidad-relación de la figura en un diagrama relacional.
+
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 6. 
           span Diagrama relacional 1:N
         img(src='@/assets/curso/temas/37.png', alt='La figura contiene un diagrama relacional que muestra dos entidades, ‘persona’ y ‘cuenta’, junto con sus atributos y la relación entre ellas. La entidad ‘persona’ tiene atributos como id_persona (clave primaria), país, identificación, correo, nombres, apellidos y edad. La entidad ‘cuenta’ posee atributos como número_cuenta (clave primaria), titular (clave foránea que referencia a id_persona de la entidad persona), saldo y fecha_creación. La línea que conecta ambas entidades indica una relación de uno a muchos, lo que significa que una persona puede tener asociadas varias cuentas.')
+
+    p En la figura 6 se puede identificar el nombre de las entidades (persona y cuenta), los atributos haciendo especial énfasis en los que representan la llave primaria con el indicador #[strong PK] (del inglés #[em Primary Key]), y también se observa la relación titular (columna de la tabla), indicando que es una clave o llave foránea de la tabla persona, lo indica con el indicador #[strong FK] (del inglés #[em Foreign Key]).
+    p Algunos diagramas relacionales agregan metadatos para hacer más claro el modelo al diseñador, así como la naturaleza de los datos del modelo.
+
+    .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 7. 
           span Diagrama relacional 1:N con metadatos
         img(src='@/assets/curso/temas/38.png', alt='La figura muestra un diagrama de dos tablas de base de datos: ‘persona’ y ‘cuenta’. ‘Persona’ incluye campos como id_persona, país, identificación y otros, con tipos de datos especificados como INTEGER y VARCHAR. ‘Cuenta’ tiene campos como número_cuenta, titular, saldo y fecha_creación con tipos FLOAT y DATE. La clave foránea ‘titular’ en ‘cuenta’ enlaza con la clave primaria ‘id_persona’ de ‘persona’, indicando que a cada persona pueden corresponder varias cuentas.')
-    .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3
-        p.mb-0 En la figura 6 se puede identificar el nombre de las entidades (persona y cuenta), los atributos haciendo especial énfasis en los que representan la llave primaria con el indicador PK (del inglés Primary Key), y también se observa la relación titular (columna de la tabla), indicando que es una clave o llave foránea de la tabla persona, lo indica con el indicador FK (del inglés Foreign Key).
-          br
-          br
-          |Algunos diagramas relacionales agregan metadatos para hacer más claro el modelo al diseñador, así como la naturaleza de los datos del modelo.
-      .col-lg-6
-        .p-3(style="background-color: #ffe888 ")
-          p.mb-0 #[b Conclusión:] la relación de uno a muchos se termina convirtiendo en una columna en la tabla que tiene la multiplicidad de los muchos.
+
+
+    .row.justify-content-center
+      .col-xl-7
+        .p-4(style="background-color: #ffe888 ")
+          .row.justify-content-center.align-items-center
+            .col-auto: img(src='@/assets/curso/temas/76.svg', alt='' style='width: 74px' )
+            .col: p.mb-0 #[b Conclusión:] la relación de uno a muchos se termina convirtiendo en una columna en la tabla que tiene la multiplicidad de los muchos.
+
     Separador 
     .fondo-mn.mn.p-5.mb-4
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -415,15 +459,18 @@
             .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.svg', alt='' style='width: 105px' )
             .col-lg-9
               p.mb-0.text-white En el momento de convertir la relación o con multiplicidad 1:1 a tablas, la relación uno a uno se convierte en una columna de la tabla empleado con restricción de unicidad (Unique Key o Primary Key) como se muestra en el siguiente diagrama relacional.
+    
     .row.justify-content-center.mb-5
-      .col-lg-5.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 12. 
           span Diagrama relacional 1:1
         img(src='@/assets/curso/temas/45.png', alt='El diagrama representa un modelo de base de datos con las tablas ‘persona’, ‘empleado’ y ‘cuenta’. ‘Persona’ se relaciona directamente con ‘empleado’ en una relación uno a uno y con ‘cuenta’ en una relación uno a muchos. Los atributos y claves primarias y foráneas están indicados, estructurando cómo se relacionan los datos de personas, su empleo y sus cuentas')
-      .col-lg-7
+
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-lg-0.mb-3
         .p-4(style="background-color: #ffe888 ")
-          p.mb-0 Como se puede inferir de la figura 12, se crea una tabla donde se relacionan los datos de las personas que son empleados del banco, a través de una columna que se llama id_persona, pero es común entre algunos diseñadores ponerle el nombre que lo relacione con la tabla a la que pertenece, es decir, id_empleado, pero esto queda al criterio del diseñador. 
+          p.mb-0 Como se puede inferir de la figura 12, se crea una tabla donde se relacionan los datos de las personas que son empleados del banco, a través de una columna que se llama id_persona, pero es común entre algunos diseñadores ponerle el nombre que lo relacione con la tabla a la que pertenece, es decir, #[strong id_empleado], pero esto queda al criterio del diseñador. 
 
 
 
@@ -461,4 +508,17 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.cont_tema2, .cont_intro1 *
+ position: relative
+.cont_tema2:before
+  position: absolute
+  content: ''
+  width: 125%
+  left: -15%
+  height: 100%
+  top: auto
+  bottom: auto
+  background: rgb(220,236,254)
+  background: linear-gradient(0deg, rgba(225,246,239,0) 0%, rgba(225,246,239,1) 25%, rgba(225,246,239,1) 75%, rgba(225,246,239,0) 100%)
+</style>

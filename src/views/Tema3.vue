@@ -321,7 +321,7 @@
       .col-lg-5
         .cajon.color-acento-botones.p-4.mb-4.h-100
           img(src='@/assets/curso/temas/66.svg', alt='' style="width: 105px").mb-4
-          p.mb-0 En la imagen anterior, por cada estudiante (tabla estudiante) existe uno y solo un elemento en la tabla persona, de tal forma que un estudiante es la conjunción de ambas tablas por medio de la llave foránea (que a la vez es llave primaria) id_estudiante, pero ¿qué tal que no existiera? Eso significa que la base de datos es inconsistente o que tiene datos basura en la tabla estudiante. Afortunadamente los SGDB permiten definir reglas que impidan que esto ocurra en las tablas, es decir que no permita registrar un estudiante con id_estudiante con un valor que no existe en la columna id_persona de la tabla persona. 
+          p.mb-0 En la figura 20, por cada estudiante (tabla estudiante) existe uno y solo un elemento en la tabla persona, de tal forma que un estudiante es la conjunción de ambas tablas por medio de la llave foránea (que a la vez es llave primaria) id_estudiante, pero ¿qué tal que no existiera? Eso significa que la base de datos es inconsistente o que tiene datos basura en la tabla estudiante. Afortunadamente los SGDB permiten definir reglas que impidan que esto ocurra en las tablas, es decir que no permita registrar un estudiante con id_estudiante con un valor que no existe en la columna id_persona de la tabla persona. 
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/67.svg', alt='')        
       .col-lg-7

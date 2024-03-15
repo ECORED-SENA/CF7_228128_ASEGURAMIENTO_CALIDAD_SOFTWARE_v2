@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1239" height="559.23" viewBox="0 0 1239 559.23">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_382371" data-name="Rectángulo 382371" width="1239" height="491.23" transform="translate(180.002 3266.25)" fill="#12263f" stroke="#e8e8e8" stroke-width="1" opacity="0.53"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1095384" data-name="Grupo 1095384" transform="translate(-181.002 -850.25)">
+    <rect id="Rectángulo_4933" data-name="Rectángulo 4933" width="1239" height="559.23" rx="8" transform="translate(181.002 850.25)" fill="#fff8dd"/>
+    <g id="Grupo_1095383" data-name="Grupo 1095383">
+      <g id="Enmascarar_grupo_269" data-name="Enmascarar grupo 269" transform="translate(1 -2415)" clip-path="url(#clip-path)">
+        <g id="Grupo_1095114" data-name="Grupo 1095114" transform="translate(1288.772 3179.266)">
+          <path id="Trazado_829573" data-name="Trazado 829573" d="M93.7,0c51.751,0,93.7,46.183,93.7,103.152S145.454,206.3,93.7,206.3,0,160.122,0,103.152,41.952,0,93.7,0Z" transform="translate(28.777)" fill="#ffeea8"/>
+          <g id="Grupo_1075132" data-name="Grupo 1075132" transform="translate(0 103.153)">
+            <g id="Grupo_1075136" data-name="Grupo 1075136">
+              <path id="Trazado_829564" data-name="Trazado 829564" d="M106.492,10.822l-1.782,1.962a11.425,11.425,0,0,1-17.253,0L86.384,11.6a11.429,11.429,0,0,0-17.253,0,11.425,11.425,0,0,1-17.253,0l-.1-.107a11.429,11.429,0,0,0-17.253,0l-.878.966a11.425,11.425,0,0,1-17.253,0l-.68-.751A11.376,11.376,0,0,0,0,10.3v5.916a11.374,11.374,0,0,1,15.718,1.413l.68.751a11.425,11.425,0,0,0,17.253,0l.878-.966a11.425,11.425,0,0,1,17.253,0l.1.107a11.425,11.425,0,0,0,17.253,0,11.425,11.425,0,0,1,17.253,0L87.457,18.7a11.425,11.425,0,0,0,17.253,0l1.782-1.962Z" transform="translate(0 11.32)" fill="#ffce00"/>
+              <path id="Trazado_829565" data-name="Trazado 829565" d="M106.492,3.259,104.71,5.221a11.425,11.425,0,0,1-17.253,0L86.384,4.04a11.425,11.425,0,0,0-17.253,0,11.425,11.425,0,0,1-17.253,0l-.1-.107a11.425,11.425,0,0,0-17.253,0l-.878.966A11.425,11.425,0,0,1,16.4,4.9l-.68-.751A11.376,11.376,0,0,0,0,2.732V8.646a11.376,11.376,0,0,1,15.718,1.415l.68.751a11.425,11.425,0,0,0,17.253,0l.878-.966a11.425,11.425,0,0,1,17.253,0l.1.107a11.425,11.425,0,0,0,17.253,0,11.425,11.425,0,0,1,17.253,0l1.073,1.181a11.425,11.425,0,0,0,17.253,0l1.782-1.962Z" transform="translate(0 0.001)" fill="#ffce00"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_1095118" data-name="Grupo 1095118" transform="translate(0 -10)">
+        <ellipse id="Elipse_9991" data-name="Elipse 9991" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(285 1064)" fill="#ffe888"/>
+        <text id="Atributos" transform="translate(322 1101)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <ellipse id="Elipse_9992" data-name="Elipse 9992" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(357 914)" fill="#ffe888"/>
+        <text id="Atributos-2" data-name="Atributos" transform="translate(394 951)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <ellipse id="Elipse_9995" data-name="Elipse 9995" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1125 914)" fill="#ffe888"/>
+        <text id="Atributos-3" data-name="Atributos" transform="translate(1162 951)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <ellipse id="Elipse_9996" data-name="Elipse 9996" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1125 1206)" fill="#ffe888"/>
+        <text id="Atributos-4" data-name="Atributos" transform="translate(1162 1243)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <path id="Trazado_829567" data-name="Trazado 829567" d="M-5819-10591.5h492" transform="translate(6242 11687)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829568" data-name="Trazado 829568" d="M-5775.109-10714.73l133.109,97.512" transform="translate(6242 11687)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829569" data-name="Trazado 829569" d="M-5775.109-10617.219-5642-10714.73" transform="translate(6242 11841.73)" fill="none" stroke="#707070" stroke-width="1"/>
+        <ellipse id="Elipse_9993" data-name="Elipse 9993" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(357 1206)" fill="#ffe888"/>
+        <text id="Atributos-5" data-name="Atributos" transform="translate(394 1243)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <path id="Trazado_829570" data-name="Trazado 829570" d="M-5747-10591.5h-72" transform="translate(6924 11687)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829571" data-name="Trazado 829571" d="M-5642-10714.73l-133.109,97.512" transform="translate(6808.109 11687)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829572" data-name="Trazado 829572" d="M-5642-10617.219l-133.109-97.512" transform="translate(6808.109 11841.73)" fill="none" stroke="#707070" stroke-width="1"/>
+        <ellipse id="Elipse_9994" data-name="Elipse 9994" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1154 1064)" fill="#ffe888"/>
+        <text id="Atributos-6" data-name="Atributos" transform="translate(1191 1101)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Atributos</tspan></text>
+        <rect id="Rectángulo_383311" data-name="Rectángulo 383311" width="190" height="58" transform="translate(495 1069)" fill="#273a89"/>
+        <text id="Entidad" transform="translate(554 1104)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entidad</tspan></text>
+        <path id="Trazado_829566" data-name="Trazado 829566" d="M-5537-10598c2.184-.109,95.3-37.051,95.3-37.051L-5347-10598l-93.7,38.979Z" transform="translate(6242 11692.536)" fill="#3ee2a8"/>
+        <text id="Relaciones" transform="translate(764 1101.536)" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Relaciones</tspan></text>
+        <rect id="Rectángulo_383313" data-name="Rectángulo 383313" width="190" height="58" transform="translate(915 1069)" fill="#273a89"/>
+        <text id="Entidad-2" data-name="Entidad" transform="translate(974 1104)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entidad</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

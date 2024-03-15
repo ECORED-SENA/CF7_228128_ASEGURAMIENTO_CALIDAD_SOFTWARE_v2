@@ -261,21 +261,9 @@ export default {
             'Regional Cauca, Centro de teleinformática y producción industrial',
         },
         {
-          nombre: 'Oscar Absalón Guevara',
-          cargo: 'Diseñador instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor Pedagógico',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
-          centro:
-            'Centro de la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -290,11 +278,6 @@ export default {
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
