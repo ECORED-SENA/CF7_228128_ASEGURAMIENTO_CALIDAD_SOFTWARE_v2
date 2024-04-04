@@ -16,29 +16,29 @@
     h4.mb-4 A continuación, se podrá conocer el paso a paso de la descarga e instalación del gestor MySQL Workbench y Web XAMPP:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. VIDEO DESCARGA E INSTALACIÓN de herramienta CASE MySQL Workbench.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nQ0FWBJbbi0?si=sk3T5aj4JJ-pb_1C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Descarga e instalación de herramienta CASE MySQL Workbench.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption VIDEO DESCARGA E INSTALACIÓN de entorno desarrollo WEB XAMPP.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gRrKvV4cBWQ?si=5VzqXYfI21NSOoyv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Descarga e instalación de entorno desarrollo WEB XAMPP.
     .row.justify-content-center.mb-5
         .col-lg-12
           .p-5.rounded-3(style="background-color: #ffe888")
             p.mb-0 Finalmente, se debe revisar cuidadosamente cómo usar MySQL Workbench para diseñar la base de datos del Modelo relacional de la biblioteca del numeral 3.2:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .p-4(titulo="VIDEO DISEÑO DE UNA BASE DATOS con -MySQL Workbench relación de uno a uno")
+      .p-4(titulo="Diseño de una base de datos con -MySQL Workbench relación de uno a uno")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .p-4(titulo="VIDEO DISEÑO DE UNA BASE DATOS con MySQL Workbench relación de uno a muchos")
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/to87Q97V61I?si=c75XUPRuuzZ7-3Oq" title="Diseño de una base de datos con -MySQL Workbench relación de uno a uno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .p-4(titulo="Diseño de una base de datos con MySQL Workbench relación de uno a muchos")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .p-4(titulo="VIDEO DISEÑO DE UNA BASE DATOS con MySQL Workbench relación de muchos a muchos")
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/agqVXjaSJBg?si=RtiiBxuFvzka5Hth" title="Diseño de una base de datos con MySQL Workbench relación de uno a muchos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .p-4(titulo="Diseño de una base de datos con MySQL Workbench relación de muchos a muchos")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/Ne8CzfgpGk8?si=2fJqa-SE_hNPdTSz" title="Diseño de una base de datos  con MySQL Workbench relación de muchos a muchos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
     
 
