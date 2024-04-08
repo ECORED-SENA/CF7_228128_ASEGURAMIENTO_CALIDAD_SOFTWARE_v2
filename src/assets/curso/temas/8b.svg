@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="505" height="336" viewBox="0 0 505 336">
+  <g id="Grupo_1095383" data-name="Grupo 1095383" transform="translate(6745 3897)">
+    <text id="E" transform="translate(-6311 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">E</tspan></text>
+    <g id="Grupo_1074977" data-name="Grupo 1074977">
+      <rect id="Rectángulo_383172" data-name="Rectángulo 383172" width="505" height="336" rx="8" transform="translate(-6745 -3897)" fill="#e1f6ef"/>
+      <g id="Rectángulo_383305" data-name="Rectángulo 383305" transform="translate(-6624 -3846)" fill="#bae9d9" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Cali" transform="translate(-6586 -3823)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cali</tspan></text>
+      <g id="Rectángulo_383306" data-name="Rectángulo 383306" transform="translate(-6502 -3846)" fill="#bae9d9" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Medellín" transform="translate(-6480 -3823)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Medellín</tspan></text>
+      <g id="Rectángulo_383307" data-name="Rectángulo 383307" transform="translate(-6382 -3846)" fill="#bae9d9" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Bogotá" transform="translate(-6360 -3823)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Bogotá</tspan></text>
+      <text id="Ciudades" transform="translate(-6728 -3823)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ciudades</tspan></text>
+      <text id="Vendedores" transform="translate(-6728 -3733)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Vendedores</tspan></text>
+      <text id="Productos" transform="translate(-6728 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Productos</tspan></text>
+      <g id="Rectángulo_383308" data-name="Rectángulo 383308" transform="translate(-6624 -3755)" fill="#fff" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Carlos" transform="translate(-6596 -3732)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Carlos</tspan></text>
+      <g id="Rectángulo_383309" data-name="Rectángulo 383309" transform="translate(-6502 -3755)" fill="#fff" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Juan" transform="translate(-6468 -3732)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Juan</tspan></text>
+      <g id="Rectángulo_383310" data-name="Rectángulo 383310" transform="translate(-6382 -3755)" fill="#fff" stroke="#273a89" stroke-width="1">
+        <rect width="102" height="35" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="101" height="34" rx="3.5" fill="none"/>
+      </g>
+      <text id="Maria" transform="translate(-6355 -3732)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Maria</tspan></text>
+      <g id="Elipse_9963" data-name="Elipse 9963" transform="translate(-6621 -3651)" fill="#dcecfe" stroke="#707070" stroke-width="1">
+        <ellipse cx="31" cy="16.5" rx="31" ry="16.5" stroke="none"/>
+        <ellipse cx="31" cy="16.5" rx="30.5" ry="16" fill="none"/>
+      </g>
+      <text id="A" transform="translate(-6595 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">A</tspan></text>
+      <g id="Elipse_9964" data-name="Elipse 9964" transform="translate(-6550 -3651)" fill="#fff1b5" stroke="#707070" stroke-width="1">
+        <ellipse cx="31" cy="16.5" rx="31" ry="16.5" stroke="none"/>
+        <ellipse cx="31" cy="16.5" rx="30.5" ry="16" fill="none"/>
+      </g>
+      <text id="B" transform="translate(-6524 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">B</tspan></text>
+      <g id="Elipse_9965" data-name="Elipse 9965" transform="translate(-6479 -3651)" fill="#dcecfe" stroke="#707070" stroke-width="1">
+        <ellipse cx="31" cy="16.5" rx="31" ry="16.5" stroke="none"/>
+        <ellipse cx="31" cy="16.5" rx="30.5" ry="16" fill="none"/>
+      </g>
+      <text id="C" transform="translate(-6453 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C</tspan></text>
+      <g id="Elipse_9966" data-name="Elipse 9966" transform="translate(-6408 -3651)" fill="#fff1b5" stroke="#707070" stroke-width="1">
+        <ellipse cx="31" cy="16.5" rx="31" ry="16.5" stroke="none"/>
+        <ellipse cx="31" cy="16.5" rx="30.5" ry="16" fill="none"/>
+      </g>
+      <text id="D" transform="translate(-6382 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">D</tspan></text>
+      <g id="Elipse_9967" data-name="Elipse 9967" transform="translate(-6337 -3651)" fill="#dcecfe" stroke="#707070" stroke-width="1">
+        <ellipse cx="31" cy="16.5" rx="31" ry="16.5" stroke="none"/>
+        <ellipse cx="31" cy="16.5" rx="30.5" ry="16" fill="none"/>
+      </g>
+      <path id="Trazado_825010" data-name="Trazado 825010" d="M-6314-3755l-247.531-55.771-20.7,55.771" fill="none" stroke="#273a89" stroke-width="1"/>
+      <path id="Trazado_825011" data-name="Trazado 825011" d="M-6559-3810.771l105.307,54.365" fill="none" stroke="#273a89" stroke-width="1"/>
+      <path id="Trazado_825012" data-name="Trazado 825012" d="M-6572.5-3755l131.49-55.607L-6314.763-3755" fill="none" stroke="#0f9d6b" stroke-width="1"/>
+      <path id="Trazado_825013" data-name="Trazado 825013" d="M-6318.68-3810.607v55.779" transform="translate(4.68)" fill="none" stroke="#ff0202" stroke-width="1"/>
+      <path id="Trazado_825014" data-name="Trazado 825014" d="M-6590-3651l24.74-69.69,43.555,69.69" fill="none" stroke="#b138de" stroke-width="1"/>
+      <path id="Trazado_825015" data-name="Trazado 825015" d="M-6579.154-3644l226.649-75.81,33.493,69.7" transform="translate(13.284)" fill="none" stroke="#b138de" stroke-width="1"/>
+      <path id="Trazado_825016" data-name="Trazado 825016" d="M-6514-3651l65.229-69.435,121.4,72.323" fill="none" stroke="#b138de" stroke-width="1"/>
+      <path id="Trazado_825017" data-name="Trazado 825017" d="M-6448.114-3719.81v67.974" fill="none" stroke="#b138de" stroke-width="1"/>
+      <text id="E-2" data-name="E" transform="translate(-6308 -3629)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">E</tspan></text>
+    </g>
+    <path id="Polígono_21" data-name="Polígono 21" d="M4.5,0,9,8H0Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, -6586.749, -3645.674)" fill="#b138de"/>
+    <path id="Polígono_22" data-name="Polígono 22" d="M4.5,0,9,8H0Z" transform="matrix(-0.259, -0.966, 0.966, -0.259, -6571.76, -3638.264)" fill="#b138de"/>
+    <path id="Polígono_23" data-name="Polígono 23" d="M4.5,0,9,8H0Z" transform="translate(-6516.164 -3648.803) rotate(150)" fill="#b138de"/>
+    <path id="Polígono_24" data-name="Polígono 24" d="M4.5,0,9,8H0Z" transform="translate(-6515.707 -3642.349) rotate(-135)" fill="#b138de"/>
+    <path id="Polígono_25" data-name="Polígono 25" d="M4.5,0,9,8H0Z" transform="translate(-6443.561 -3645.656) rotate(180)" fill="#b138de"/>
+    <path id="Trazado_829982" data-name="Trazado 829982" d="M-6448.061-3719.853l57.178,69.885" fill="none" stroke="#b138de" stroke-width="1"/>
+    <path id="Polígono_26" data-name="Polígono 26" d="M4.5,0,9,8H0Z" transform="translate(-6383.05 -3648.703) rotate(135)" fill="#b138de"/>
+    <path id="Polígono_27" data-name="Polígono 27" d="M4.5,0,9,8H0Z" transform="matrix(-0.545, 0.839, -0.839, -0.545, -6318.255, -3647.251)" fill="#b138de"/>
+    <path id="Polígono_28" data-name="Polígono 28" d="M4.5,0,9,8H0Z" transform="translate(-6300.236 -3645.65) rotate(165)" fill="#b138de"/>
+    <path id="Polígono_29" data-name="Polígono 29" d="M4.5,0,9,8H0Z" transform="translate(-6575.989 -3747.805) rotate(-120)" fill="#0f9d6b"/>
+    <path id="Polígono_30" data-name="Polígono 30" d="M4.5,0,9,8H0Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, -6580.367, -3748.674)" fill="#273a89"/>
+    <path id="Polígono_31" data-name="Polígono 31" d="M4.5,0,9,8H0Z" transform="matrix(-0.629, 0.777, -0.777, -0.629, -6444.501, -3754.551)" fill="#273a89"/>
+    <path id="Polígono_32" data-name="Polígono 32" d="M4.5,0,9,8H0Z" transform="matrix(-0.629, 0.777, -0.777, -0.629, -6308.501, -3754.551)" fill="#273a89"/>
+    <path id="Polígono_33" data-name="Polígono 33" d="M4.5,0,9,8H0Z" transform="matrix(-1, 0, 0, -1, -6308.94, -3754.731)" fill="red"/>
+  </g>
+</svg>

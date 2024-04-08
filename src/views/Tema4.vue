@@ -31,14 +31,17 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/to87Q97V61I?si=c75XUPRuuzZ7-3Oq" title="Diseño de una base de datos con -MySQL Workbench relación de uno a uno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Diseño de una base de datos con -MySQL Workbench relación de uno a uno.
       .p-4(titulo="Diseño de una base de datos con MySQL Workbench relación de uno a muchos")
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/agqVXjaSJBg?si=RtiiBxuFvzka5Hth" title="Diseño de una base de datos con MySQL Workbench relación de uno a muchos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Diseño de una base de datos con MySQL Workbench relación de uno a muchos.
       .p-4(titulo="Diseño de una base de datos con MySQL Workbench relación de muchos a muchos")
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/Ne8CzfgpGk8?si=2fJqa-SE_hNPdTSz" title="Diseño de una base de datos  con MySQL Workbench relación de muchos a muchos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Diseño de una base de datos  con MySQL Workbench relación de muchos a muchos.
         
     
 

@@ -51,16 +51,16 @@
                 i.fas.fa-circle.fa-xs
                 p.mb-0 Eliminar los campos que no dependen de la clave.
       .col-lg-3.col-7: img(src='@/assets/curso/temas/49.svg', alt='')
-    p.mb-5(data-aos='fade-right') Hay una cuarta forma normal, también llamada forma normal de #[em #[B Boyce Codd (BCNF)]], y una quinta forma normal, pero rara vez se consideran en un diseño práctico, solo agregan complejidad al sistema y no aportan un valor funcional que aporte a la solución del problema, por esta razón no será tratada.
+    p.mb-5(data-aos='fade-right') Hay una cuarta forma normal, también llamada forma normal de #[strong #[em Boyce Codd] (BCNF)], y una quinta forma normal, pero rara vez se consideran en un diseño práctico, solo agregan complejidad al sistema y no aportan un valor funcional que aporte a la solución del problema, por esta razón no será tratada.
     Separador
     .fondo-mn.mn.p-5.mb-4
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 3.1 Dependencias funcionales 
       p.mb-5(data-aos='fade-right') Una dependencia funcional es un tipo de restricción que termina construyendo una generalización del concepto de clave, como se estudió en el modelo E-R y en el modelo relacional. Pero no es tan fácil localizar las dependencias, ya que necesitan de un análisis de los atributos (columnas) o, con más precisión, de las interrelaciones entre atributos y, frecuentemente, la intuición no es suficiente a la hora de encontrar y clasificar todas las dependencias. Aunque existe una teoría matemática para realizar este análisis, un ejemplo sencillo puede enseñar cómo analizar estas dependencias de manera intuitiva, tal como se presenta a continuación.
       h4 Ejemplo 
-      p.mb-5(data-aos='fade-right') Un cliente pide que desarrolle un software para llevar el inventario de una ferretería, los productos, los proveedores, el precio al que cada proveedor vende cada producto, para lo cual suministra la siguiente tabla, y se debe identificar las dependencias funcionales para poder realizar un modelo relacional.
+      p.mb-5(data-aos='fade-right') Un cliente pide que desarrolle un #[em software] para llevar el inventario de una ferretería, los productos, los proveedores, el precio al que cada proveedor vende cada producto, para lo cual suministra la siguiente tabla, y se debe identificar las dependencias funcionales para poder realizar un modelo relacional.
       .row.justify-content-center.mb-5
-        .col-lg-10
+        .col-lg
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 8. 
             span Proveedores, productos y precios
@@ -138,14 +138,14 @@
                   td 5475698
                   td Cutter RDS
                   td $      9.200,00
-      p.mb-5(data-aos='fade-right') El principio de no repetición de datos sugiere que se deben identificar todos los datos que se repiten. Esto se puede conocer en la siguiente figura. Es importante destacar que los valores de nit_proveedor son iguales en todos los registros que comparten el mismo valor de correo, nombres y teléfono.
+      p.mb-5(data-aos='fade-right') El principio de no repetición de datos sugiere que se deben identificar todos los datos que se repiten. Esto se puede conocer en la siguiente figura. Es importante destacar que los valores de #[strong nit_proveedor] son iguales en todos los registros que comparten el mismo valor de correo, nombres y teléfono.
       .row.justify-content-center.mb-5
         .col-lg-10 
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 13. 
             span Dependencia de nit_proveedor con datos del proveedor
           img(src='@/assets/curso/temas/50.png', alt='La figura muestra una tabla con listados de productos de proveedores. Incluye campos para NIT del proveedor, correo, nombre, teléfono, código y descripción del producto, y precio. Los NITs repetidos indican que cada proveedor puede ofrecer múltiples productos. La tabla ilustra la relación entre proveedores y sus productos en un sistema de gestión de inventarios.')
-      p.mb-5(data-aos='fade-right') También en la figura 14 la columna código_producto es la misma para la columna producto, pero difiere del precio que cada proveedor ofrece del mismo.
+      p.mb-5(data-aos='fade-right') También en la figura 14 la columna #[strong código_producto] es la misma para la columna producto, pero difiere del precio que cada proveedor ofrece del mismo.
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -161,7 +161,7 @@
           img(src='@/assets/curso/temas/52.png', alt='La figura muestra cómo el NIT del proveedor y el código del producto se relacionan con el precio. Incluye datos de contacto del proveedor y detalles del producto. Se observa que los proveedores ofrecen varios productos y que los precios varían, posiblemente reflejando distintas ofertas o calidades. La tabla es útil para la gestión de compras y ventas.')
       p.mb-5(data-aos='fade-right') En la siguiente tabla se presentan las dependencias detectadas.
       .row.justify-content-center.mb-5
-        .col-lg-6 
+        .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 9. 
             span Dependencias funcionales
@@ -194,11 +194,11 @@
             .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.svg', alt='' style='width: 105px' )
             .col-lg-9
               p.mb-0.text-white Se dice que un atributo X de una relación “depende funcionalmente” de otro atributo o conjunto de atributos Y de la relación si a todo valor (o valores del conjunto) Y le corresponde siempre el mismo valor de X.
-    p.mb-5(data-aos='fade-right') Las dependencias funcionales de la tabla 8 se pueden representar en el modelo entidad-relación, considerando que un proveedor puede suministrar varios productos y, a su vez, un producto puede ser suministrado por más de un proveedor. Además, para cada producto suministrado por un proveedor, existe un precio específico.
+    p.mb-5(data-aos='fade-right') Las dependencias funcionales de la tabla 9 se pueden representar en el modelo entidad-relación, considerando que un proveedor puede suministrar varios productos y, a su vez, un producto puede ser suministrado por más de un proveedor. Además, para cada producto suministrado por un proveedor, existe un precio específico.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 16.
       span Diagrama entidad relación dependencia funcional
-    img.mb-4(src='@/assets/curso/temas/53.svg', alt='El diagrama muestra un modelo de entidad-relación donde la entidad ‘proveedor’ con atributos como nit_proveedor, nombres, correo y teléfono está conectada mediante una relación de muchos a muchos a la entidad ‘producto’, que tiene atributos de codigo_producto, producto y precio. Indica cómo los proveedores están asociados a los productos que ofrecen y sus precios.')
+    img.mb-4(src='@/assets/curso/temas/53b.svg', alt='El diagrama muestra un modelo de entidad-relación donde la entidad ‘proveedor’ con atributos como nit_proveedor, nombres, correo y teléfono está conectada mediante una relación de muchos a muchos a la entidad ‘producto’, que tiene atributos de codigo_producto, producto y precio. Indica cómo los proveedores están asociados a los productos que ofrecen y sus precios.')
     p.mb-5(data-aos='fade-right') Como se puede notar en la figura 16, la relación provee, cuando es mapeado a un diagrama relacional, se genera una tabla intermedia provee que debe tener un atributo adicional “precio”.
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -237,7 +237,7 @@
               |Para gestionar una biblioteca escolar, nuestro cliente requiere herramientas específicas para controlar publicaciones como libros, revistas y folletos, así como para llevar un registro de los estudiantes y los préstamos. Es necesario controlar los ejemplares de cada libro o publicación, incluyendo su ubicación y estado, y registrar tanto la retirada de libros por préstamo como la restitución de los ejemplares. Además, se necesita información sobre las editoriales, incluyendo datos como la dirección, el teléfono y el nombre de la editorial.
       h4 De cada publicación se pueden tener varios ejemplares, por ejemplo: 
       .row.justify-content-center.mb-5
-        .col-lg-10: img(src='@/assets/curso/temas/58.svg', alt='')
+        .col-lg-10: img(src='@/assets/curso/temas/58.svg', alt='La figura es un diagrama de flujo sobre el "Libro Nacho lee" que muestra la disponibilidad de cinco ejemplares en una biblioteca y subraya la importancia de conocer su ubicación. Adicionalmente, detalla que se debe conocer el autor, el tema de la publicación y características específicas de cada libro como título, idioma, formato, código ISBN y fecha de publicación.')
       .row.justify-content-center.mb-5
         .col-lg-5.mb-lg-0.mb-3
           ul.lista-ul--color
@@ -285,7 +285,7 @@
       h5 Figura 19.
       span Modelo entidad relación biblioteca
     img(src='@/assets/curso/temas/62.svg', alt='El diagrama muestra un modelo de entidad-relación para una biblioteca, detallando cómo personas, como estudiantes y autores, interactúan con entidades como publicaciones, ejemplares y préstamos. Las publicaciones están conectadas a temas y editoriales, y los ejemplares son objeto de préstamos.').mb-4
-    p.mb-5(data-aos='fade-right') En la siguiente figura se presenta el modelo en un diagrama relacional, este es importante ya que hace parte de uno de los subproductos que, por petición del cliente, muchas veces es un entregable en un proyecto de software, no es así con el diagrama entidad relación ya que este tipo de diagrama requiere más formas y contiene menos tecnicismos.
+    p.mb-5(data-aos='fade-right') En la siguiente figura se presenta el modelo en un diagrama relacional, este es importante ya que hace parte de uno de los subproductos que, por petición del cliente, muchas veces es un entregable en un proyecto de #[em software], no es así con el diagrama entidad relación ya que este tipo de diagrama requiere más formas y contiene menos tecnicismos.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -308,20 +308,24 @@
               p En el siguiente enlace se presentan los tipos de datos enteros: 
       .col-lg-5.col-7: img(src='@/assets/curso/temas/64.png', alt='')
     p.mb-5(data-aos='fade-right') La calidad de los datos garantiza que la información almacenada en la base de datos cumpla con los estándares y requisitos de la organización, asegurando así el mantenimiento de la integridad de los datos. Esto implica aplicar un conjunto de reglas a un conjunto de datos, ya sea completo o específico, antes de almacenarlos en la base de datos de destino. #[b Por lo tanto, para asegurar la integridad de los datos, se deben tener en cuenta los siguientes aspectos:]
-    .row.justify-content-center.mb-5
-      .col-lg-7.mb-lg-0.mb-3
+    .row.justify-content-center
+      .col-lg-10.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .p-4(titulo="Criterio de nulidad")
             p.mb-0 Cuando en una fila un atributo (columna) es desconocido, se dice que es nulo. Un nulo no representa el valor cero (0) ni una cadena vacía (“”) ya que éstos son valores tienen un significado o valor. El nulo significa ausencia de información, bien porque al insertar la fila se desconocía el valor del atributo, o tal vez porque para dicha fila el atributo no tiene valor. Debido a que los nulos no son valores, deben tratarse de forma particular, lo que causa problemas de implementación. Actualmente casi todos los SGDB soportan valores nulos.
           .p-4(titulo="Integridad de entidad")
             p.mb-0 Ninguno de los atributos o columnas que componen una llave primaria debe ser NULO. Es decir, una clave primaria es irreducible para identificar de modo único una fila, el que sea irreducible significa que ningún subconjunto de la clave primaria sirve para identificar inequívocamente la dial: a la fila o tupla. Si se permitiera valor nulo en una columna que hace parte de la llave primaria, esta estaría contradiciendo la irreductibilidad de una llave primaria; esto no aplica para claves alternativas, solo para la clave primaria.
-          .p-4(titulo="Integridad referencia")
-            p.mb-0 Para esto se debe analizar el modelo de la figura 20 y en particular la relación entre las tablas persona y estudiante. Como se sabe, la tabla estudiante tiene una llave primaria que, a la vez, es una referencia de la tabla persona, en la siguiente figura se observa un ejemplo
-            img(src='@/assets/curso/temas/65.png', alt='La imagen muestra dos tablas de base de datos, ‘persona’ y ‘estudiante’, que están vinculadas, sugiriendo una relación de integridad referencial entre ciertos campos, aunque no se siguen las convenciones típicas de enlace por identificadores únicos.')
-      .col-lg-5
+          .p-4(titulo="Integridad referencial")
+            p.mb-4 Para esto se debe analizar el modelo de la figura 20 y en particular la relación entre las tablas persona y estudiante. Como se sabe, la tabla estudiante tiene una llave primaria que, a la vez, es una referencia de la tabla persona, en la siguiente figura se observa un ejemplo
+            img(src='@/assets/curso/temas/77.png', alt='La imagen muestra dos tablas de base de datos, ‘persona’ y ‘estudiante’, que están vinculadas, sugiriendo una relación de integridad referencial entre ciertos campos, aunque no se siguen las convenciones típicas de enlace por identificadores únicos.')
+    .row.justify-content-center.mb-5
+      .col-lg-10
         .cajon.color-acento-botones.p-4.mb-4.h-100
-          img(src='@/assets/curso/temas/66.svg', alt='' style="width: 105px").mb-4
-          p.mb-0 En la figura 20, por cada estudiante (tabla estudiante) existe uno y solo un elemento en la tabla persona, de tal forma que un estudiante es la conjunción de ambas tablas por medio de la llave foránea (que a la vez es llave primaria) id_estudiante, pero ¿qué tal que no existiera? Eso significa que la base de datos es inconsistente o que tiene datos basura en la tabla estudiante. Afortunadamente los SGDB permiten definir reglas que impidan que esto ocurra en las tablas, es decir que no permita registrar un estudiante con id_estudiante con un valor que no existe en la columna id_persona de la tabla persona. 
+          .row 
+            .col-auto
+              img(src='@/assets/curso/temas/66.svg', alt='' style="width: 105px").mb-4
+            .col
+              p.mb-0 En la figura 20, por cada estudiante (tabla estudiante) existe uno y solo un elemento en la tabla persona, de tal forma que un estudiante es la conjunción de ambas tablas por medio de la llave foránea (que a la vez es llave primaria) id_estudiante, pero ¿qué tal que no existiera? Eso significa que la base de datos es inconsistente o que tiene datos basura en la tabla estudiante. Afortunadamente los SGDB permiten definir reglas que impidan que esto ocurra en las tablas, es decir que no permita registrar un estudiante con id_estudiante con un valor que no existe en la columna id_persona de la tabla persona. 
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/67.svg', alt='')        
       .col-lg-7
@@ -365,7 +369,7 @@
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.4 Lenguajes de los sistemas administradores de bases de datos
-    p.mb-5(data-aos='fade-right') Los sistemas gestores de bases de datos emplean un lenguaje que se denomina SQL que corresponde al nombre en inglés (Structured Query Language), Generalmente, cuando un SGBD relacional implementa el lenguaje SQL, todas las acciones, y operaciones se llevan a cabo en el sistema mediante sentencias de este lenguaje. Dentro de SQL hay varios tipos de sentencias que se agrupan en cuatro conjuntos.
+    p.mb-5(data-aos='fade-right') Los sistemas gestores de bases de datos emplean un lenguaje que se denomina SQL que corresponde al nombre en inglés (#[em Structured Query Language]), Generalmente, cuando un SGBD relacional implementa el lenguaje SQL, todas las acciones, y operaciones se llevan a cabo en el sistema mediante sentencias de este lenguaje. Dentro de SQL hay varios tipos de sentencias que se agrupan en cuatro conjuntos.
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -402,7 +406,7 @@
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de control (DCL): 
-      p.mb-3(data-aos='fade-right') son las sentencias empleadas por los administradores de la base de datos para realizar tareas como, por ejemplo, crear usuarios y concederles o revocar los privilegios. Se usa el término DCL del inglés Data Control Language.
+      p.mb-3(data-aos='fade-right') son las sentencias empleadas por los administradores de la base de datos para realizar tareas como, por ejemplo, crear usuarios y concederles o revocar los privilegios. Se usa el término DCL del inglés #[em Data Control Language].
       .row.justify-content-center.mb-5
         .col-lg-6.col-9.mb-lg-0.mb-3
           p.mb-5(data-aos='fade-right') #[b Ejemplo DCL]

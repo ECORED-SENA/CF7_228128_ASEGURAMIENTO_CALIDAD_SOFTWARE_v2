@@ -15,7 +15,7 @@
           span RAE, 2001
       .col-lg-7
         .p-4(style="background-color:#e1f6ef ").h-100
-          p.mb-0 De acuerdo con esta definición, una hoja de cálculo de Excel puede considerarse una base de datos, o un conjunto de archivos debidamente organizados, o la lista de nombres y teléfonos que está en nuestros smartphones. En principio, es correcto llamarle base de datos a estos ejemplos, sin embargo, en el contexto de desarrollo de software, se referirá a ese conjunto de información que puede ser almacenada en grandes cantidades de forma organizada y es gestionada desde o a través de un #[b Sistema de Gestión de Bases de Datos (SGBD).]
+          p.mb-0 De acuerdo con esta definición, una hoja de cálculo de Excel puede considerarse una base de datos, o un conjunto de archivos debidamente organizados, o la lista de nombres y teléfonos que está en nuestros #[em smartphones]. En principio, es correcto llamarle base de datos a estos ejemplos, sin embargo, en el contexto de desarrollo de #[em software], se referirá a ese conjunto de información que puede ser almacenada en grandes cantidades de forma organizada y es gestionada desde o a través de un #[b Sistema de Gestión de Bases de Datos (SGBD).]
     .p-4(style="background-color: #bae9d9 ").mb-5
       .row.justify-content-center.align-items-center.g-0.order-reverse.position-relative
         .col-lg-3.d-lg-block.d-none(style="margin-right: -5rem ;z-index: 1 "): img(src='@/assets/curso/temas/3.svg', alt=''  )
@@ -46,127 +46,127 @@
 
               td 666
               td 00:05:33
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:27:19.0
               td 3023946875
               td 666
               td 00:00:43
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:22:52.0
               td 3174377015
               td 666
               td 00:05:40
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:24:20.0
               td 3208098045
               td 666
               td 00:08:09
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:29:28.0
               td 3162400761
               td 666
               td 00:05:19
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:45:23.0
               td 7005
               td 883216361744
               td 00:00:55
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:46:59.0
               td 7005
               td 883164829206
               td 00:00:03
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:47:38.0
               td 7005
               td 883164829206
               td 00:00:39
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 00:57:04.0
               td 3143259110
               td 666
               td 00:05:23
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 01:29:16.0
               td 7004
               td 0
               td 00:00:08
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 01:31:19.0
               td 22198329
               td 2
               td 00:12:04
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 01:55:44.0
               td 88362500
               td 444
               td 00:06:36
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 02:02:38.0
               td 88362500
               td 666
               td 00:03:01
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 02:14:10.0
               td 3173678610
               td 666
               td 00:01:49
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 02:55:15.0
               td 3184096662
               td 666
               td 00:04:33
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 01:29:30.0
               td 7004
               td 1
               td 01:35:05
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:04:30.0
               td 7004
               td 0
               td 00:00:05
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:05:35.0
               td 7005
               td 883146610566
               td 00:02:35
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:05:41.0
               td 3003264734
               td 666
               td 00:02:56
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:18:00.0
               td 7005
               td 147584584
               td 00:00:00
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:18:50.0
               td 7005
               td 883206657698
               td 00:00:02
-              td ANSWERED
+              td #[em ANSWERED]
             tr
               td 2021-04-10 03:19:06.0
               td 7005
@@ -174,26 +174,26 @@
 
               td 00:00:02
 
-              td NO ANSWERED
+              td NO #[em ANSWERED]
             tr
               td 2021-04-10 03:19:49.0
               td 7005
               td 883206657698
               td 00:00:00
-              td NO ANSWERED
+              td NO #[em ANSWERED]
             tr
               td 2021-04-10 03:21:53.0
               td 7005
               td 883113084181
               td 00:00:00
-              td NO ANSWERED
+              td NO #[em ANSWERED]
             tr
               td 2021-04-10 03:22:40.0
               td 7005
               td 883113084181
               td 00:00:00
-              td NO ANSWERED
-      p.mb-5(data-aos='fade-right') #[b La tabla 1] muestra los datos organizados de manera que cada columna agrupa un tipo específico de dato, mientras que cada fila, denominada registro, contiene un conjunto de datos relacionados entre sí. Esta relación indica que cada fila corresponde a una llamada telefónica única. A esta organización se le denomina estructura bidimensional, donde las filas y columnas constituyen las dos dimensiones.
+              td NO #[em ANSWERED]
+      p.mb-5(data-aos='fade-right') La #[b tabla 1] muestra los datos organizados de manera que cada columna agrupa un tipo específico de dato, mientras que cada fila, denominada registro, contiene un conjunto de datos relacionados entre sí. Esta relación indica que cada fila corresponde a una llamada telefónica única. A esta organización se le denomina estructura bidimensional, donde las filas y columnas constituyen las dos dimensiones.
         br
         br
         | #[b Los metadatos de la tabla anterior serían la definición de cada tipo de dato como se lista a continuación:]
@@ -221,7 +221,7 @@
                 i.fas.fa-circle.fa-xs
                 p.mb-0.text-white #[span(style='color: #FFCE00 !important') Z] Un dato numérico de un digito (para representar milésimas de segundo).
         .col-lg-6.col-8: img(src='@/assets/curso/temas/4.svg', alt='')
-      p.mb-5(data-aos='fade-right') Como este es el conjunto de datos de la primera columna, puede que use un término que describa lo anterior con una sola palabra que es TIMESTAMP, de esta forma esa primera columna puede quedar correctamente descrita como:
+      p.mb-5(data-aos='fade-right') Como este es el conjunto de datos de la primera columna, puede que use un término que describa lo anterior con una sola palabra que es #[strong TIMESTAMP], de esta forma esa primera columna puede quedar correctamente descrita como:
       .row.justify-content-center.mb-5
         .col-lg-8
           .tarjeta(style="background-color: #273a89").p-4
@@ -230,9 +230,14 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .tarjeta(style="background-color: #273a89").p-4
-            p.mb-0.text-white #[span.resalte src VARCHAR(25)]  De esta forma decimos que es una cadena de caracteres que varía en longitud de 0 a 25 caracteres. 
-              br
-              |#[span.resalte dst VARCHAR(25)] 
+            .row
+              .col-auto
+                span.resalte src VARCHAR(25)
+                br
+                span.resalte dst VARCHAR(25)
+              .col
+                p.mb-0.text-white De esta forma decimos que es una cadena de caracteres que varía en longitud de 0 a 25 caracteres. 
+
       p.mb-5(data-aos='fade-right') #[b duration:] tiene la estructura HH:MI:SS y como se vio antes representa el tiempo en horas, minutos y segundos: 
       .row.justify-content-center.mb-5
         .col-lg-6
@@ -240,7 +245,7 @@
             p.mb-0.text-white #[span.resalte src TIME ]  TIME se usa para esta estructura de dato en particular
       p.mb-5(data-aos='fade-right') #[b disposition:] indica si la llamada es atendida ANSWER, no atendida NO ANSWER, o si falló la FAIL. Se puede representar con una cadena de 10 caracteres.
         br
-        |Por lo tanto, la solución de los metadatos de la base de datos de la figura 1 es:
+        |Por lo tanto, la solución de los metadatos de la base de datos es:
       .row.justify-content-center.mb-5
         .col-lg-4
           .tarjeta(style="background-color: #3ee2a8 ").p-4
@@ -267,22 +272,22 @@
         table
           tbody
             tr
-              td(style="background-color:#FFCE00 ; width: 20%") NOMBRE
+              td(style="background-color:#FFCE00 ; width: 20%") Nombre
               td(style="background-color:#E1F6EF ") Base datos de llamadas telefónicas.
             tr
-              td(style="background-color:#FFCE00 ; width: 20%") CREACIÓN
+              td(style="background-color:#FFCE00 ; width: 20%") Creación
               td(style="background-color:#E1F6EF ") 27/02/2021
             tr
-              td(style="background-color:#FFCE00 ; width: 20%") DESCRIPCIÓN
+              td(style="background-color:#FFCE00 ; width: 20%") Descripción
               td(style="background-color:#E1F6EF ") Registro de las llamadas telefónicas de la PBX de la empresa STD LTDA.
       .tabla-a.color-acento-botones.mb-5
         table
           thead
             tr(style="background-color: #FFCE00")
-              th CAMPO
-              th TIPO DATO
-              th TAMAÑO
-              th DESCRIPCIÓN
+              th Campo
+              th Tipo de dato
+              th Tamaño
+              th Descripción
           tbody.bg-white
             tr
               td calldate
@@ -293,7 +298,7 @@
               td src
               td VARCHAR
               td 25
-              td Fuente (source) de la llamada, número de quien hace la llamada telefónica.
+              td Fuente (#[em source]) de la llamada, número de quien hace la llamada telefónica.
             tr
               td dst
               td VARCHAR
@@ -312,7 +317,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-8: img(src='@/assets/curso/temas/5.svg', alt='')
         .col-lg-7
-          p.mb-0 Como se presenta en la tabla anterior, un diccionario de datos proporciona detalles sobre la estructura de los datos y cómo se utilizan en la empresa, organización o sistema de información. Para ello, es necesario asignar un nombre al conjunto completo de datos (indicado en la primera fila), establecer una fecha (segunda fila) y proporcionar una descripción (tercera fila) del conjunto de datos. En la tabla 2, se destaca la distinción entre la lógica de los datos (representada por la columna DESCRIPCIÓN del dato) y su almacenamiento físico (indicado por las columnas #[b TIPO DE DATO y TAMAÑO), evidenciando la independencia entre ambos aspectos.]
+          p.mb-0 Como se presenta en la tabla anterior, un diccionario de datos proporciona detalles sobre la estructura de los datos y cómo se utilizan en la empresa, organización o sistema de información. Para ello, es necesario asignar un nombre al conjunto completo de datos (indicado en la primera fila), establecer una fecha (segunda fila) y proporcionar una descripción (tercera fila) del conjunto de datos. En la tabla 2, se destaca la distinción entre la lógica de los datos (representada por la columna DESCRIPCIÓN del dato) y su almacenamiento físico (indicado por las columnas #[b TIPO DE DATO y TAMAÑO)], evidenciando la independencia entre ambos aspectos.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Tipos de datos y restricción de no nulidad
@@ -429,10 +434,10 @@
         .row.justify-content-center.mb-5
           .col-lg-7
             .p-4(style="background-color: #3ee2a8").rounded-3.h-100
-              p.fw-bold.mb-0 calldate TIMESTAM(1) NOT NULL,
-                | src VARCHAR(25)NOT NULL,
-                | dst VARCHAR(25)NOT NULL,
-                | src TIME NOT NULL,
+              p.fw-bold.mb-0 calldate TIMESTAM(1) NOT NULL,<br/>
+                | src VARCHAR(25)NOT NULL,<br/>
+                | dst VARCHAR(25)NOT NULL,<br/>
+                | src TIME NOT NULL,<br/>
                 | disposition VARCHAR(10) NOT NULL
           .col-lg-5 
             .p-4(style="background-color: #fff9e0").rounded-3.h-100
@@ -448,23 +453,22 @@
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura jerárquica
-              p En las primeras bases de datos empleadas son las de estructura jerárquica. Las relaciones entre registros forman una estructura en árbol, en la actualidad un ejemplo de estas bases datos es la base da tos LDAP usada en la actualidad para sistema de directorio de datos tales como usuario, dispositivos, nombres, contraseñas, direcciones etc. dentro de una red de computadores
+              p Las primeras bases de datos que se emplearon presentaban una estructura jerárquica, en la que las relaciones entre registros adoptaban la forma de un árbol. Hoy día, un ejemplo representativo de estas bases de datos es LDAP (#[em Lightweight Directory Access Protocol]), utilizado para gestionar sistemas de directorios que almacenan información variada, como usuarios, dispositivos, nombres, contraseñas y direcciones, dentro de una red de computadoras.
             .col-lg-5.col-7
               figure
                 img(src='@/assets/curso/temas/7.svg', alt='La imagen es un diagrama jerárquico de bases de datos que muestra la relación entre un departamento y sus profesores y cursos. “DEPT01” está en la cima, seguido por “PROFESOR 1”, “PROFESOR 2” y “PROFESOR 3”. Cada profesor está conectado a uno o más “CURSOS”, indicando la organización de las clases dentro del departamento.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura en red
-              p Esta estructura es un poco más compleja que la anterior porque contiene otras relaciones de las jerárquicas admitiendo relaciones de cada registro otros, de manera tal que puede seguir distintos caminos para acceder a la información.
+              p Esta estructura de base de datos en red es más compleja que la anterior debido a que no solo admite relaciones jerárquicas, sino que también permite que cada registro establezca conexiones con otros. Así, facilita la existencia de múltiples caminos para acceder a la información.
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/8.svg', alt='El diagrama muestra tres ciudades y sus vendedores correspondientes: Carlos, Juan y María. Cada vendedor ofrece distintos productos, indicando la distribución de productos por vendedor y su relación con las ciudades.')
+                img(src='@/assets/curso/temas/8b.svg', alt='El diagrama muestra tres ciudades y sus vendedores correspondientes: Carlos, Juan y María. Cada vendedor ofrece distintos productos, indicando la distribución de productos por vendedor y su relación con las ciudades.')
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura relacional
-              p Es estas bases de datos son multipropósito, lo que las hace las más extendidas en la industria y más empleadas, pero son las compleja de aprender; por lo que solo se abordará el diseño e implementación de este tipo de bases de datos. 
-                br
-                |Se basan tablas como las que se presentó en la figura 1 y en la relación de los datos de unas tablas con otras.
+              p Estas bases de datos de estructura relacional son multipropósito, lo que las convierte en las más utilizadas y extendidas en la industria, aunque también son las más complejas de aprender. Por esta razón, nos centraremos únicamente en el diseño e implementación de este tipo de bases de datos. 
+              p  Se basan  en el uso de tablas, similares a las presentadas en la imagen,y en la relación de los datos de unas tablas con otras.
 
             .col-lg-5.col-7
               figure
@@ -472,7 +476,7 @@
           .row.justify-content-center
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura multidimensional
-              p Es la extensión de las bases de datos de estructuras relacionales, como se vio en las relacionales, se basan en estructuras bidimensionales (tablas), mientras que la multidimensional en cubos (tres dimensiones), o más complejas con N dimensione
+              p Es la extensión de las bases de datos de estructuras relacionales, como se vio en las relacionales, se basan en estructuras bidimensionales (tablas), mientras que la multidimensional en cubos (tres dimensiones), o más complejas con N dimensiones.
             .col-lg-5.col-7
               figure
                 img(src='@/assets/curso/temas/10.png', alt='La imagen muestra un cubo de datos, representativo de una base de datos multidimensional, utilizada en el análisis de información empresarial. Este tipo de estructura permite analizar datos desde múltiples perspectivas. El cubo representa ventas de productos en países (Argentina, Brasil, Chile) durante tres meses (Abril, Mayo, Junio). Cada celda del cubo muestra la cantidad de unidades vendidas de cada producto durante un mes específico en un país.')
@@ -494,7 +498,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 5. 
       span Sistemas de Gestión de Bases de Datos
-    .tabla-a.color-acento-botones
+    .tabla-a.color-acento-botones.mb-5
             table
               thead
                 tr(style="background-color: #FFCE00")
@@ -512,7 +516,7 @@
                         p.mb-0 Son bases de datos, cuyos datos son históricos, es decir ya no se pueden modificar, se usan comúnmente para estudiar el comportamiento de los datos a través del tiempo.
                       li.d-flex
                         i.fas.fa-circle.fa-xs
-                        p.mb-0 Generalmente, a este tipo de bases de datos se les llama bodega de datos.
+                        p.mb-0 Generalmente, a este tipo de bases de datos se les llama #[strong bodega de datos].
                       li.d-flex
                         i.fas.fa-circle.fa-xs
                         p.mb-0 Muchas de estas bases de datos de almacenan en cubos para su análisis, se las conoce como OLAP, es el acrónimo en inglés de procesamiento analítico en línea #[em (On-Line Analytical Processing).]
@@ -531,7 +535,7 @@
 
 
                 tr
-                  td Según el contenido
+                  td Según el contenido.
                   td Bases de datos documentales.
                   td 
                     ul.lista-ul--color
@@ -541,7 +545,7 @@
                       
 
                 tr
-                  td Según el contenido
+                  td Según el contenido.
                   td Base de datos deductivos.
                   td 
                     ul.lista-ul--color
@@ -549,7 +553,7 @@
                         i.fas.fa-circle.fa-xs
                         p.mb-0 Un sistema de base de datos deductivos es un sistema de base de datos, pero con la diferencia de que permite hacer deducciones a través de inferencias. Se basa principalmente en reglas y hechos que son almacenados en la base de datos. También las bases de datos deductivas son llamadas base de datos lógica, a raíz de que se basan en lógica matemática.
                         
-    p.mb-5(data-aos='fade-right') Pueden existir otras clasificaciones orientadas al ámbito de uso, sin embargo, se presentan las más comunes en el ejercicio del desarrollo de software. La base de datos relacionales es de obligatorio dominio en cualquiera de los casos, ya que los conceptos de esta son reutilizables en casi todos los otros tipos.
+    p.mb-5(data-aos='fade-right') Pueden existir otras clasificaciones orientadas al ámbito de uso, sin embargo, se presentan las más comunes en el ejercicio del desarrollo de #[em software]. #[strong El dominio de las bases de datos relacionales es esencial en cualquiera de los casos, ya que los conceptos de esta son aplicables y reutilizables en casi todos los otros tipos.]
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Sistema de gestión de bases de datos

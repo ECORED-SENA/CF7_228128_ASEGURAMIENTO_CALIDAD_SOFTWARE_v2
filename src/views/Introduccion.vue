@@ -19,10 +19,10 @@
               figure
                 img(src="@/assets/curso/intro/intro4.png")
             .row.p-5.pt-4.pb-4.p-lg-0
-              .col-lg-auto.col-md-5.col-7.m-auto(style="place-self:center;" data-aos="fade-right")
+              .col-xxl-auto.col-lg-3.col-md-5.col-7.m-auto(style="place-self:center;" data-aos="fade-right")
                 figure.mb-2.mt-4.mb-lg-0
                   img(src="@/assets/curso/intro/1.png")
-              .col-lg.col-md-12.col-12.p-0.p-lg-4(style="place-self:center;" data-aos="fade-left")
+              .col-xxl.col-lg-9.col-md-12.col-12.p-0.p-lg-4(style="place-self:center;" data-aos="fade-left")
                 p.mb-0.pt-4 Una base de datos puede ser concebida como un “almacén” de información, el cual se define y crea una única vez con el objetivo de almacenar grandes cantidades de datos de manera organizada (o estructurada), facilitando así su posterior búsqueda y utilización. En este componente se explicará el concepto y las características de las bases de datos contemporáneas, considerando que cada una es diseñada para satisfacer los requisitos de información específicos de una organización o empresa. Estos diseños están ideados para ser implementados mediante #[span.etiqueta #[strong Sistemas de Gestión de Bases de Datos (SGDB)]], que son sistemas o servicios informáticos que permiten a los usuarios definir, crear, brindar soporte y mantenimiento a las bases de datos, asegurando el control del acceso de manera segura.
 
 </template>

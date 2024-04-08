@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="514" viewBox="0 0 1030 514">
+  <g id="Grupo_1095388" data-name="Grupo 1095388" transform="translate(-285 -3945)">
+    <g id="Grupo_1095386" data-name="Grupo 1095386" transform="translate(20 -18)">
+      <g id="Grupo_1095136" data-name="Grupo 1095136" transform="translate(-20 554)">
+        <g id="Rectángulo_383322" data-name="Rectángulo 383322" transform="translate(285 3409)" fill="#fff" stroke="#3ee2a8" stroke-width="1">
+          <rect width="1030" height="514" rx="8" stroke="none"/>
+          <rect x="0.5" y="0.5" width="1029" height="513" rx="7.5" fill="none"/>
+        </g>
+        <ellipse id="Elipse_9992" data-name="Elipse 9992" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(438 3464)" fill="#ffe888"/>
+        <text id="nombres" transform="translate(475 3501)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">nombres</tspan></text>
+        <ellipse id="Elipse_9995" data-name="Elipse 9995" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1121 3473)" fill="#ffe888"/>
+        <text id="numero_cuenta" data-name="numero cuenta" transform="translate(1137 3510)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0">numero cuenta</tspan></text>
+        <ellipse id="Elipse_9996" data-name="Elipse 9996" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1121 3765)" fill="#ffe888"/>
+        <text id="fecha_creacion" transform="translate(1136 3802)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">fecha_creacion</tspan></text>
+        <path id="Trazado_829570" data-name="Trazado 829570" d="M-5747-10591.5h-72" transform="translate(6920 14246)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829571" data-name="Trazado 829571" d="M-5642-10714.73l-133.109,97.512" transform="translate(6804.109 14246)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829572" data-name="Trazado 829572" d="M-5660.309-10627.139l-114.8-87.592" transform="translate(6804.109 14400.73)" fill="none" stroke="#707070" stroke-width="1"/>
+        <ellipse id="Elipse_9994" data-name="Elipse 9994" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(1150 3623)" fill="#ffe888"/>
+        <text id="saldo" transform="translate(1200 3660)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">saldo</tspan></text>
+        <ellipse id="Elipse_9999" data-name="Elipse 9999" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(325 3545)" fill="#ffe888"/>
+        <text id="apellidos" transform="translate(362 3582)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">apellidos</tspan></text>
+        <path id="Trazado_829598" data-name="Trazado 829598" d="M-5786.552-8106.016l53.037,46.542" transform="translate(6238 11701)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829599" data-name="Trazado 829599" d="M-5786.552-8059.475l53.037-46.542" transform="translate(6238 11780.745)" fill="none" stroke="#707070" stroke-width="1"/>
+        <ellipse id="Elipse_9993" data-name="Elipse 9993" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(325 3698)" fill="#ffe888"/>
+        <text id="edad" transform="translate(376 3735)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">edad</tspan></text>
+        <path id="Trazado_829600" data-name="Trazado 829600" d="M-5786.552-8106.016l131.484,115.383" transform="translate(6297.552 11632.159)" fill="none" stroke="#707070" stroke-width="1"/>
+        <path id="Trazado_829601" data-name="Trazado 829601" d="M-5786.552-7990.633l131.484-115.383" transform="translate(6284.552 11792.016)" fill="none" stroke="#707070" stroke-width="1"/>
+        <ellipse id="Elipse_9991" data-name="Elipse 9991" cx="69" cy="31.5" rx="69" ry="31.5" transform="translate(438 3780)" fill="#ffe888"/>
+        <text id="identificación" transform="translate(463 3817)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0">identificación</tspan></text>
+        <path id="Trazado_829602" data-name="Trazado 829602" d="M-5578.234-8046.5h319.685" transform="translate(6238 11701)" fill="none" stroke="#707070" stroke-width="1"/>
+        <rect id="Rectángulo_383311" data-name="Rectángulo 383311" width="190" height="58" transform="translate(491 3628)" fill="#273a89"/>
+        <text id="Persona" transform="translate(550 3663)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Persona</tspan></text>
+        <path id="Trazado_829566" data-name="Trazado 829566" d="M-5537-10598c2.184-.109,95.3-37.051,95.3-37.051L-5347-10598l-93.7,38.979Z" transform="translate(6238 14251.536)" fill="#3ee2a8"/>
+        <text id="Titular" transform="translate(773.5 3660.536)" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Titular</tspan></text>
+        <rect id="Rectángulo_383313" data-name="Rectángulo 383313" width="190" height="58" transform="translate(911 3628)" fill="#273a89"/>
+        <text id="Cuenta" transform="translate(981 3663)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Cuenta</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
