@@ -36,8 +36,8 @@
               th calldate
               th src
               th Dst
-              th duration
-              th disposition
+              th #[em duration]
+              th #[em disposition]
           tbody
             tr
               td 2021-04-10 00:12:17.0

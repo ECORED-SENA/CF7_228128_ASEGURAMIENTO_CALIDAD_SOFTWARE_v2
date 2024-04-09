@@ -64,7 +64,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 8. 
             span Proveedores, productos y precios
-          .tabla-a.color-acento-botones.mb-5
+          .tabla-a.color-acento-botones.mb-5.tabla-responsive
             table
               thead(style="background-color: #ffce00 ").border-0
                 tr
@@ -257,7 +257,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 18. 
             span Análisis de relacionar autor 
-          img(src='@/assets/curso/temas/60.svg', alt='El diagrama muestra un modelo de entidad-relación en el que una ‘persona’ puede ser tanto ‘estudiante’ como ‘autor’, y tiene atributos como id_persona, nombres, apellidos y correo. ‘Estudiante’ tiene atributos adicionales como identificación, teléfono, dirección y grado escolar. Este modelo es útil para representar las diferentes funciones o roles que una persona puede ocupar en un sistema de base de datos.')
+          img(src='@/assets/curso/temas/figura18.svg', alt='El diagrama muestra un modelo de entidad-relación en el que una ‘persona’ puede ser tanto ‘estudiante’ como ‘autor’, y tiene atributos como id_persona, nombres, apellidos y correo. ‘Estudiante’ tiene atributos adicionales como identificación, teléfono, dirección y grado escolar. Este modelo es útil para representar las diferentes funciones o roles que una persona puede ocupar en un sistema de base de datos.')
       .row.justify-content-center.mb-5
         .col-lg-10
           p.mb-0 #[b  En este diagrama se presenta una posible solución:]
@@ -284,7 +284,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 19.
       span Modelo entidad relación biblioteca
-    img(src='@/assets/curso/temas/62.svg', alt='El diagrama muestra un modelo de entidad-relación para una biblioteca, detallando cómo personas, como estudiantes y autores, interactúan con entidades como publicaciones, ejemplares y préstamos. Las publicaciones están conectadas a temas y editoriales, y los ejemplares son objeto de préstamos.').mb-4
+    img(src='@/assets/curso/temas/figura19.png', alt='El diagrama muestra un modelo de entidad-relación para una biblioteca, detallando cómo personas, como estudiantes y autores, interactúan con entidades como publicaciones, ejemplares y préstamos. Las publicaciones están conectadas a temas y editoriales, y los ejemplares son objeto de préstamos.').mb-4
     p.mb-5(data-aos='fade-right') En la siguiente figura se presenta el modelo en un diagrama relacional, este es importante ya que hace parte de uno de los subproductos que, por petición del cliente, muchas veces es un entregable en un proyecto de #[em software], no es así con el diagrama entidad relación ya que este tipo de diagrama requiere más formas y contiene menos tecnicismos.
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -440,4 +440,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tabla-responsive table
+    min-width: 1200px;
+</style>

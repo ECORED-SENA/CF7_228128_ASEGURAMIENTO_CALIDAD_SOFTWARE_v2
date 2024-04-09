@@ -345,7 +345,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 4. 
         span Relaciones de uno a muchos 
-      img(src='@/assets/curso/temas/31b.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
+      img(src='@/assets/curso/temas/figura4.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
       p.mb-5(data-aos='fade-right') A esta representación se le denomina multiplicidad #[strong 1:N] y se lee de la siguiente forma:  #[strong UNA persona] es #[strong titular] de #[strong N cuentas] bancarias, de esta forma una persona puede tener #[strong N] (que puede ser cero, uno o más de una) cuentas bancarias. Se puede leer en forma inversa que el resultado es el mismo: muchas o varias cuentas bancarias pueden tener un mismo titular. 
         br
         br
@@ -404,7 +404,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 8. 
         span Diagrama de entidad de publicaciones bibliográficas
-      img(src='@/assets/curso/temas/39.svg', alt='El diagrama ilustra cómo las personas como autores están conectadas a sus obras, y sirve para modelar la estructura de una base de datos para almacenar y recuperar información sobre libros y otros tipos de publicaciones').mb-4
+      img(src='@/assets/curso/temas/figura8.svg', alt='El diagrama ilustra cómo las personas como autores están conectadas a sus obras, y sirve para modelar la estructura de una base de datos para almacenar y recuperar información sobre libros y otros tipos de publicaciones').mb-4
       .row.justify-content-center.mb-5
         .col-lg-10
           p Como se identifica en la figura 8, la entidad publicación tiene una llave primaria llamada identificación, y existe una relacionada llamada autor, y representa que una persona pueden ser autor de una o muchas publicaciones, y que una publicación puede ser de autoría de una o muchas personas, la multiplicidad en este caso es de muchos a muchos y se representa como N:N.
@@ -455,7 +455,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right').mb-54
       h5 Figura 11.
       span Diagrama entidad relación persona-empleado
-    img(src='@/assets/curso/temas/36.svg', alt='El diagrama muestra las entidades ‘persona’, ‘empleado’ y ‘cuenta’ en una base de datos. ‘Persona’ tiene atributos personales y está vinculada uno a uno con ‘empleado’, que incluye datos laborales. ‘Persona’ también está vinculada uno a muchos con ‘cuenta’, indicando que una persona puede tener varias cuentas bancarias. Estas relaciones permiten modelar cómo los empleados y sus cuentas están interconectados.').mb-5
+    img(src='@/assets/curso/temas/figura11.svg', alt='El diagrama muestra las entidades ‘persona’, ‘empleado’ y ‘cuenta’ en una base de datos. ‘Persona’ tiene atributos personales y está vinculada uno a uno con ‘empleado’, que incluye datos laborales. ‘Persona’ también está vinculada uno a muchos con ‘cuenta’, indicando que una persona puede tener varias cuentas bancarias. Estas relaciones permiten modelar cómo los empleados y sus cuentas están interconectados.').mb-5
     .titulo-icono.p-2.d-inline-block.mb-4
         h4.mb-0 REGLA DE MAPEO 1:1 de Modelo entidad-relación a modelo relacional
     .row.justify-content-center.mb-5
