@@ -299,7 +299,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         p.mb-5(data-aos='fade-right') Cuando se define un atributo, sin saber, se está escogiendo para él un dominio es decir un conjunto de valores que puede tener. Por ejemplo: en MySQL cuando se elige un atributo de tipo entero (INT) los posibles valores que puede tener esa columna van desde -2147483648 hasta 2147483647, es decir valores positivos o negativos, de manera que si se quieren sólo valores positivos se deben definirlos como entero sin signo (UNSIGNED INT), por lo tanto, los valores van desde 0 hasta 4294967295; en el siguiente enlace se puede conocer un dato completo:
-        a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://dev.mysql.com/doc/refman/8.0/en/integer-types.html" target="_blank")
           .row.justify-content-around.align-items-center
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
