@@ -162,7 +162,7 @@
                   td 4
                   td $  21.105.547,83
                   td 12/04/2022
-    p.mb-5(data-aos='fade-right') Las tablas presentan cada una un conjunto de registros, la tabla 6 muestra 6 registros y la tabla 7 muestra 9 de ellas, cada uno de estos registros representa un objeto, es decir, de la tabla persona hay 6 (objetos) o personas, a la agrupación de los datos de cada registro se le llama TUPLA y, en términos sencillos, una #[span.resalte2 TUPLA] de una base datos es el conjunto de todos los atributos (columnas) de una fila.
+    p.mb-5(data-aos='fade-right') Las tablas presentan cada una un conjunto de registros, la tabla 6 muestra 7 registros y la tabla 7 muestra 9 de ellas, cada uno de estos registros representa un objeto, es decir, de la tabla persona hay 6 (objetos) o personas, a la agrupación de los datos de cada registro se le llama TUPLA y, en términos sencillos, una #[span.resalte2 TUPLA] de una base datos es el conjunto de todos los atributos (columnas) de una fila.
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Relaciones entre entidades

@@ -386,7 +386,7 @@
       .row.justify-content-center.mb-5
         .col-lg-6.col-9.mb-lg-0.mb-3: img(src='@/assets/curso/temas/69.png', alt='')
         .col-lg-6 
-          p Nota: cada atributo se define en una línea separado por una coma, se agregan restricciones de no nulidad #[em (NOT NULL)] al final la sentía termina con punto y coma. Ahora, así se borraría esa misma tabla:
+          p Nota: cada atributo se define en una línea separado por una coma, se agregan restricciones de no nulidad #[em (NOT NULL)] al final la sentencia termina con punto y coma. Ahora, así se borraría esa misma tabla:
           .tarjeta.p-4.d-inline-block.rounded-3(style="background-color: #bae9d9 ")
             p.mb-0.fw-bold DROP TABLE persona;
     .fondo-mn4.mn.p-5
@@ -406,7 +406,7 @@
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de control (DCL): 
-      p.mb-3(data-aos='fade-right') son las sentencias empleadas por los administradores de la base de datos para realizar tareas como, por ejemplo, crear usuarios y concederles o revocar los privilegios. Se usa el término DCL del inglés #[em Data Control Language].
+      p.mb-3(data-aos='fade-right') Son las sentencias empleadas por los administradores de la base de datos para realizar tareas como, por ejemplo, crear usuarios y concederles o revocar los privilegios. Se usa el término DCL del inglés #[em Data Control Language].
       .row.justify-content-center.mb-5
         .col-lg-6.col-9.mb-lg-0.mb-3
           p.mb-5(data-aos='fade-right') #[b Ejemplo DCL]
@@ -417,7 +417,7 @@
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de control de transacciones (TCL):
-      p.mb-3(data-aos='fade-right') un pequeño grupo de sentencias que permiten procesar en bloque operaciones DML garantizando que se efectúen todas y cada una de las operaciones o ninguna. #[b TCL] del inglés #[em Transaction Control Language.]
+      p.mb-3(data-aos='fade-right') Un pequeño grupo de sentencias que permiten procesar en bloque operaciones DML garantizando que se efectúen todas y cada una de las operaciones o ninguna. #[b TCL] del inglés #[em Transaction Control Language.]
 
     
 
