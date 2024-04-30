@@ -166,7 +166,7 @@
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1  Relaciones entre entidades
-    p.mb-5(data-aos='fade-right') Como se observa en las tablas 6 y 7 una entidad se puede representar con una tabla, sin embargo, la relación titular aún no se sabe cómo representarla y para ello se debe definir algunas propiedades de los atributos. 
+    p.mb-5(data-aos='fade-right') Como se observa en las tablas 6 y 7, una entidad se puede representar con una tabla; sin embargo, la relación titular aún no se sabe cómo representarla y para ello se debe definir algunas propiedades de los atributos. 
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -187,7 +187,7 @@
             h5 Figura 1.
             span Claves de las entidades persona y cuenta 
           img(src='@/assets/curso/temas/23b.svg', alt='La figura presenta un diagrama de un modelo de base de datos que conecta las entidades persona y cuenta a través de la relación titular. La entidad persona incluye atributos como nombres, apellidos, edad e identificación, mientras que la entidad cuenta incluye número de cuenta, saldo y fecha de creación. Este diagrama se utiliza para representar cómo se almacena y se relaciona la información de clientes y sus cuentas bancarias en un sistema informático.').mb-4
-          p.mb-5(data-aos='fade-right') Nótese como los atributos #[span.resalte2 identificacion y numero_cuenta] tiene subrayada la palabra identificadora del atributo, representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
+          p.mb-5(data-aos='fade-right') Nótese cómo los atributos #[span.resalte2 identificación y numero_cuenta] tienen subrayada la palabra identificadora del atributo, representado así que ese atributo es la clave (que hace que se cumpla el criterio de unicidad) de su entidad.
 
     .fondo-mn5.p-5.mn.mb-5      
       h4 Claves candidata, superclave y clave primaria 
@@ -243,7 +243,7 @@
       .row.justify-content-center.mb-2
         .col-lg
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 7.
+            h5 Tabla 8.
             span Entidad persona
           .tabla-a.color-acento-botones.mb-5
             table
@@ -345,11 +345,11 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 4. 
         span Relaciones de uno a muchos 
-      img(src='@/assets/curso/temas/figura4.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (’N’ representa muchas instancias).').mb-5
+      img(src='@/assets/curso/temas/figura4.svg', alt='la figura presenta un diagrama de modelo de entidad-relación que ilustra la relación de uno a muchos entre las entidades ‘persona’ y ‘cuenta’. La entidad ‘persona’ tiene atributos como nombres, apellidos, correo, edad, país, identificación y id_persona. Por otro lado, la entidad ‘cuenta’ tiene atributos como número de cuenta, saldo y fecha de creación. La relación ‘titular’ indica que una persona (donde ‘1’ representa a una sola instancia) puede tener titularidad sobre muchas cuentas (‘N’ representa muchas instancias).').mb-5
       p.mb-5(data-aos='fade-right') A esta representación se le denomina multiplicidad #[strong 1:N] y se lee de la siguiente forma:  #[strong UNA persona] es #[strong titular] de #[strong N cuentas] bancarias, de esta forma una persona puede tener #[strong N] (que puede ser cero, uno o más de una) cuentas bancarias. Se puede leer en forma inversa que el resultado es el mismo: muchas o varias cuentas bancarias pueden tener un mismo titular. 
         br
         br
-        |Cuando una relación de es uno a muchos y se mapea una un modelo de base de datos relacional, la relación #[strong titular] (rombo) se termina convirtiendo una columna de la tabla de los muchos.
+        |Cuando una relación es de uno a muchos y se mapea una un modelo de base de datos relacional, la relación #[strong titular] (rombo) se termina convirtiendo una columna de la tabla de los muchos.
       .row.justify-content-center.mb-5
         .col-lg-10
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -417,7 +417,7 @@
             .col-lg-2.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.svg', alt='' style='width: 105px' )
             .col-lg-9
               p.mb-0.text-white  En una relación de uno a mucho (N:N) se transforma en una tabla cuya llave primaria está compuesta por las llaves primarias de las otras dos tablas.
-    p.mb-5(data-aos='fade-right') En la figura 9, la “tabla autor”, dice que la persona Ana Lis, es autora de los libros de título Grandes hazañas y Pellentesque, también que el libro Pellentesque es escrito además de Ana Lis por Luis Darío y Jose Nicolás. Lo anterior haciendo referencia a las llaves primarias de las tablas a)#[strong persona] y b) #[strong publicacion]. 
+    p.mb-5(data-aos='fade-right') En la figura 9, la “tabla autor”, dice que la persona Ana Lis, es autora de los libros de título Grandes hazañas y Pellentesque, también que el libro Pellentesque es escrito además de Ana Lis por Luis Darío y Jose Nicolás. Lo anterior haciendo referencia a las llaves primarias de las tablas a) #[strong persona] y b) #[strong publicacion]. 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 9.
       span Tablas de relación N:N.

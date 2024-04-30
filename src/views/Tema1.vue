@@ -7,12 +7,14 @@
         span 1
       h1 Conceptos generales de bases de datos
     p.mb-5(data-aos='fade-right') El concepto general de bases de datos según la RAE es:
-    .row.justify-content-center.mb-5
-      .col-lg-5.mb-lg-0.mb-3  
-        .bloque-texto-c(style="background-color: #dee1ed ").p-4
-          i.fas.fa-quote-right.mb-3
-          h4.mb-2 El conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información
-          span RAE, 2001
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-5.mb-lg-0.mb-3.mb-lg-0
+        .bloque-texto-b.color-secundario.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            h4.mb-4 El conjunto de datos organizado de tal modo que permita obtener con rapidez diversos tipos de información
+            i.fas.fa-quote-right
+            span.d-flex.justify-content-end RAE, 2001
       .col-lg-7
         .p-4(style="background-color:#e1f6ef ").h-100
           p.mb-0 De acuerdo con esta definición, una hoja de cálculo de Excel puede considerarse una base de datos, o un conjunto de archivos debidamente organizados, o la lista de nombres y teléfonos que está en nuestros #[em smartphones]. En principio, es correcto llamarle base de datos a estos ejemplos, sin embargo, en el contexto de desarrollo de #[em software], se referirá a ese conjunto de información que puede ser almacenada en grandes cantidades de forma organizada y es gestionada desde o a través de un #[b Sistema de Gestión de Bases de Datos (SGBD).]
@@ -200,7 +202,7 @@
       .row.justify-content-center.mb-5
         .col-lg-6.mb-lg-0.mb-3
           .tarjeta(style="background-color: #273a89 ").p-5
-            p.mb-2(data-aos='fade-right').text-white #[b #[span(style='color: #FFCE00 !important ') calldate:]] tiene la estructura YYYY-MM-DD HH:MI:SS.Z , donde:
+            p.mb-2(data-aos='fade-right').text-white #[b #[span(style='color: #FFCE00 !important ') calldate:]] tiene la estructura YYYY-MM-DD HH:MI:SS.Z, donde:
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-circle.fa-xs
@@ -219,7 +221,7 @@
                 p.mb-0.text-white #[span(style='color: #FFCE00 !important') MI] y #[span(style='color: #FFCE00 !important') SS] un dato numérico de dos dígitos entre 00 y 59
               li.d-flex
                 i.fas.fa-circle.fa-xs
-                p.mb-0.text-white #[span(style='color: #FFCE00 !important') Z] Un dato numérico de un digito (para representar milésimas de segundo).
+                p.mb-0.text-white #[span(style='color: #FFCE00 !important') Z] Un dato numérico de un dígito (para representar milésimas de segundo).
         .col-lg-6.col-8: img(src='@/assets/curso/temas/4.svg', alt='')
       p.mb-5(data-aos='fade-right') Como este es el conjunto de datos de la primera columna, puede que use un término que describa lo anterior con una sola palabra que es #[strong TIMESTAMP], de esta forma esa primera columna puede quedar correctamente descrita como:
       .row.justify-content-center.mb-5
@@ -258,22 +260,22 @@
               |src TIME,
               br
               |disposition VARCHAR(10)
-      p.mb-5(data-aos='fade-right') Note que cada uno de ellos fue separado por un coma para que se diferencie de los demás.
+      p.mb-5(data-aos='fade-right') Note que cada uno de ellos fue separado por una coma para que se diferencie de los demás.
     .fondo-mn.p-5.mn
       h5.mb-0 Ejemplo 2
-      p.mb-3(data-aos='fade-right') Conociendo el objetivo de la base datos de la tabla 1 y los metadatos, se debe crear un diccionario de datos o un catálogo de datos.
+      p.mb-3(data-aos='fade-right') Conociendo el objetivo de la base de datos de la tabla 1 y los metadatos, se debe crear un diccionario de datos o un catálogo de datos.
         br
         br
         | #[b Solución]
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 2. 
-        span Diccionario de datos base de llamadas telefónicas
+        span Diccionario de datos de base de llamadas telefónicas.
       .tabla-a.color-acento-botones.mb-5
         table
           tbody
             tr
               td(style="background-color:#FFCE00 ; width: 20%") Nombre
-              td(style="background-color:#E1F6EF ") Base datos de llamadas telefónicas.
+              td(style="background-color:#E1F6EF ") Base de datos de llamadas telefónicas.
             tr
               td(style="background-color:#FFCE00 ; width: 20%") Creación
               td(style="background-color:#E1F6EF ") 27/02/2021
@@ -468,7 +470,7 @@
             .col-lg-5.mb-4.mb-md-0.text-white
               h4 Bases de datos con estructura relacional
               p Estas bases de datos de estructura relacional son multipropósito, lo que las convierte en las más utilizadas y extendidas en la industria, aunque también son las más complejas de aprender. Por esta razón, nos centraremos únicamente en el diseño e implementación de este tipo de bases de datos. 
-              p  Se basan  en el uso de tablas, similares a las presentadas en la imagen,y en la relación de los datos de unas tablas con otras.
+              p  Se basan  en el uso de tablas, similares a las presentadas en la imagen, y en la relación de los datos de unas tablas con otras.
 
             .col-lg-5.col-7
               figure
@@ -519,7 +521,7 @@
                         p.mb-0 Generalmente, a este tipo de bases de datos se les llama #[strong bodega de datos].
                       li.d-flex
                         i.fas.fa-circle.fa-xs
-                        p.mb-0 Muchas de estas bases de datos de almacenan en cubos para su análisis, se las conoce como OLAP, es el acrónimo en inglés de procesamiento analítico en línea #[em (On-Line Analytical Processing).]
+                        p.mb-0 Muchas de estas bases de datos se almacenan en cubos para su análisis, se las conoce como OLAP, es el acrónimo en inglés de procesamiento analítico en línea #[em (On-Line Analytical Processing).]
 
                 tr
                   td Según la variabilidad de los datos.

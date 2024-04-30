@@ -224,7 +224,7 @@
         .tarjeta-adorno1.p-5.h-100(style="background-color: #3ee2a8 ")
           img(src='@/assets/curso/temas/57.svg', alt='' style="width: 63px ").mb-4
           p.mb-0 Se puede hacer un diseño ad hoc (para que cumpla el requerimiento) y se debe comprobar luego que satisface la forma normal deseada.
-    p.mb-5(data-aos='fade-right') #[b En el mundo práctico y en la medida que se tiene más experticia las opciones 2 y 3 son las más empleadas.]
+    p.mb-5(data-aos='fade-right') #[b En el mundo práctico y en la medida que se tiene más experticia, las opciones 2 y 3 son las más empleadas.]
       br
       br
       | A continuación, se muestra un ejemplo completo de cómo abordar un problema de almacenamiento de datos y transformarlo en un modelo relacional, recogiendo los conceptos vistos hasta ahora, pasando de un diagrama entidad relación a un modelo relacional que es en todo caso el objetivo general de un diseño de base de datos.
@@ -243,7 +243,7 @@
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-circle.fa-xs
-              p.mb-0 Cada ejemplar tiene un código de barras, cuando un ejemplar ya está muy descargado se debe poder dar de baja; es decir, que ya se puede botar y no usarlo más. 
+              p.mb-0 Cada ejemplar tiene un código de barras, cuando un ejemplar ya está muy descargado, se debe poder dar de baja, es decir, que ya se puede botar y no usarlo más. 
 
             li.d-flex
               i.fas.fa-circle.fa-xs
@@ -272,7 +272,7 @@
       .row.justify-content-center.mb-5
         .col-lg-10
           .p-5.rounded-3(style="background-color: #ffe888")
-            p.mb-0 Se debe estudiar detenidamente el diagrama entidad relación, por varios minutos, asegúrese que comprende el porqué de cada elemento y su multiplicidad. Antes de continuar, realice a mano alzada diagrame el modelo relacional:
+            p.mb-0 Se debe estudiar detenidamente el diagrama entidad relación, por varios minutos, asegúrese que comprende el porqué de cada elemento y su multiplicidad. Antes de continuar, realice a mano alzada diagrama del modelo relacional:
     .row.justify-content-center.mb-5
       .col-lg-10
         .p-4(style="background-color: #273a89")
@@ -285,7 +285,7 @@
       h5 Figura 19.
       span Modelo entidad relación biblioteca
     img(src='@/assets/curso/temas/figura19.png', alt='El diagrama muestra un modelo de entidad-relación para una biblioteca, detallando cómo personas, como estudiantes y autores, interactúan con entidades como publicaciones, ejemplares y préstamos. Las publicaciones están conectadas a temas y editoriales, y los ejemplares son objeto de préstamos.').mb-4
-    p.mb-5(data-aos='fade-right') En la siguiente figura se presenta el modelo en un diagrama relacional, este es importante ya que hace parte de uno de los subproductos que, por petición del cliente, muchas veces es un entregable en un proyecto de #[em software], no es así con el diagrama entidad relación ya que este tipo de diagrama requiere más formas y contiene menos tecnicismos.
+    p.mb-5(data-aos='fade-right') En la siguiente figura se presenta el modelo en un diagrama relacional, este es importante, ya que hace parte de uno de los subproductos que, por petición del cliente, muchas veces es un entregable en un proyecto de #[em software], no es así con el diagrama entidad relación, ya que este tipo de diagrama requiere más formas y contiene menos tecnicismos.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -312,11 +312,11 @@
       .col-lg-10.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .p-4(titulo="Criterio de nulidad")
-            p.mb-0 Cuando en una fila un atributo (columna) es desconocido, se dice que es nulo. Un nulo no representa el valor cero (0) ni una cadena vacía (“”) ya que éstos son valores tienen un significado o valor. El nulo significa ausencia de información, bien porque al insertar la fila se desconocía el valor del atributo, o tal vez porque para dicha fila el atributo no tiene valor. Debido a que los nulos no son valores, deben tratarse de forma particular, lo que causa problemas de implementación. Actualmente casi todos los SGDB soportan valores nulos.
+            p.mb-0 Cuando en una fila un atributo (columna) es desconocido, se dice que es nulo. Un nulo no representa el valor cero (0) ni una cadena vacía (“”), ya que éstos son valores tienen un significado o valor. El nulo significa ausencia de información, bien porque al insertar la fila se desconocía el valor del atributo, o tal vez porque para dicha fila el atributo no tiene valor. Debido a que los nulos no son valores, deben tratarse de forma particular, lo que causa problemas de implementación. Actualmente, casi todos los SGDB soportan valores nulos.
           .p-4(titulo="Integridad de entidad")
             p.mb-0 Ninguno de los atributos o columnas que componen una llave primaria debe ser NULO. Es decir, una clave primaria es irreducible para identificar de modo único una fila, el que sea irreducible significa que ningún subconjunto de la clave primaria sirve para identificar inequívocamente la dial: a la fila o tupla. Si se permitiera valor nulo en una columna que hace parte de la llave primaria, esta estaría contradiciendo la irreductibilidad de una llave primaria; esto no aplica para claves alternativas, solo para la clave primaria.
           .p-4(titulo="Integridad referencial")
-            p.mb-4 Para esto se debe analizar el modelo de la figura 20 y en particular la relación entre las tablas persona y estudiante. Como se sabe, la tabla estudiante tiene una llave primaria que, a la vez, es una referencia de la tabla persona, en la siguiente figura se observa un ejemplo
+            p.mb-4 Para esto se debe analizar el modelo de la figura 20 y, en particular, la relación entre las tablas persona y estudiante. Como se sabe, la tabla estudiante tiene una llave primaria que, a la vez, es una referencia de la tabla persona, en la siguiente figura se observa un ejemplo:
             img(src='@/assets/curso/temas/77.png', alt='La imagen muestra dos tablas de base de datos, ‘persona’ y ‘estudiante’, que están vinculadas, sugiriendo una relación de integridad referencial entre ciertos campos, aunque no se siguen las convenciones típicas de enlace por identificadores únicos.')
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -339,25 +339,25 @@
       br
       |#[span.resalte2 Regla de borrado: ] define el comportamiento a la pregunta: ¿qué ocurre si se intenta borrar la fila referenciada por la clave foránea de otra tabla? Para lo cual el SGBD implementa una de las siguientes opciones: 
     .row.justify-content-center.mb-5
-      .col-lg-3.mb-lg-0.mb-3
+      .col-11.col-lg-6.col-xl-3.mb-3
         .tarjeta-adorno2.p-5.h-100(style="background-color: #273a89 ")
           h4
             span.resalte  Restringir:
           p.text-white.mb-0 No se permite borrar la fila referenciada.
 
-      .col-lg-3.mb-lg-0.mb-3
+      .col-11.col-lg-6.col-xl-3.mb-3
         .tarjeta-adorno2.p-5.h-100(style="background-color: #273a89 ")
           h4
             span.resalte  Cascada:
           p.text-white.mb-0 Se borra la fila referenciada y también se borran las filas que la referencian mediante la clave foránea en la otra tabla.
 
-      .col-lg-3.mb-lg-0.mb-3
+      .col-11.col-lg-6.col-xl-3.mb-3
         .tarjeta-adorno2.p-5.h-100(style="background-color: #273a89 ")
           h4
             span.resalte  Poner null:
           p.text-white.mb-0 Se borra la fila referenciada y las filas que la referenciaban ponen en nulo la clave foránea (solo si acepta nulos).
 
-      .col-lg-3.mb-lg-0.mb-3
+      .col-11.col-lg-6.col-xl-3.mb-3
         .tarjeta-adorno2.p-5.h-100(style="background-color: #273a89 ")
           h4
             span.resalte  Valor por defecto:
@@ -365,7 +365,7 @@
     p.mb-5(data-aos='fade-right') #[span.resalte2 Regla de edición:] define el comportamiento a la pregunta: ¿qué sucede si se intenta modificar el valor de la clave primaria de la fila referenciada por la clave foránea por otra tabla?
       br
       br
-      |De esta forma, una vez definida la estructura del modelo de datos, se debe determinar el comportamiento de estas operaciones, lo cual generalmente responde a requerimiento del sistema de información. 
+      |De esta forma, una vez definida la estructura del modelo de datos, se debe determinar el comportamiento de estas operaciones, lo cual generalmente responde al requerimiento del sistema de información. 
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.4 Lenguajes de los sistemas administradores de bases de datos
@@ -384,7 +384,7 @@
         br
         |Para crear la tabla persona de la figura 20, quedaría de la siguiente forma:
       .row.justify-content-center.mb-5
-        .col-lg-6.col-9.mb-lg-0.mb-3: img(src='@/assets/curso/temas/69.png', alt='')
+        .col-lg-6.col-9.mb-lg-0.mb-3: img(src='@/assets/curso/temas/69.png', alt='Imagen que presenta cómo crear la tabla persona.')
         .col-lg-6 
           p Nota: cada atributo se define en una línea separado por una coma, se agregan restricciones de no nulidad #[em (NOT NULL)] al final la sentencia termina con punto y coma. Ahora, así se borraría esa misma tabla:
           .tarjeta.p-4.d-inline-block.rounded-3(style="background-color: #bae9d9 ")
@@ -392,17 +392,17 @@
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de manejo de datos (DML):
-      p.mb-3(data-aos='fade-right') Estas sentencias que permiten insertar datos en las tablas, consultarlos, editarlos y borrarlos, se denomina DML del inglés Data Manipulation Language. 
+      p.mb-3(data-aos='fade-right') Estas sentencias que permiten insertar datos en las tablas, consultarlos, editarlos y borrarlos, se denomina DML del inglés #[i Data Manipulation Language]. 
       p.mb-5(data-aos='fade-right') #[b Ejemplo DML]
         br
         | A continuación, se muestra cómo se inserta una fila a la tabla persona, luego cómo se actualiza la fila insertada y posteriormente cómo se borra: 
-      .row.justify-content-center.mb-5
+      .row.align-items-center.justify-content-center
         .col-lg-6.col-9.mb-lg-0.mb-3
-          img(src='@/assets/curso/temas/70.png', alt='').mb-4
-          img(src='@/assets/curso/temas/71.png', alt='').mb-4
-          img(src='@/assets/curso/temas/72.png', alt='').mb-4
+          img(src='@/assets/curso/temas/70.png', alt='Imagen que presenta cómo se inserta una fila a la tabla persona.').mb-4
+          img(src='@/assets/curso/temas/71.png', alt='Imagen que presenta cómo se actualiza la fila insertada.').mb-4
+          img(src='@/assets/curso/temas/72.png', alt='Imagen que presenta cómo se borra la fila insertada.').mb-4
         .col-lg-6 
-          img(src='@/assets/curso/temas/73.png', alt='')
+          img(src='@/assets/curso/temas/73.png', style="width:380px", alt='').m-auto
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de control (DCL): 
@@ -411,9 +411,9 @@
         .col-lg-6.col-9.mb-lg-0.mb-3
           p.mb-5(data-aos='fade-right') #[b Ejemplo DCL]
             br
-            | En el ejemplo se le da permisos a un usuario llamado userdb de la base de datos de nombre biblioteca_db para que pueda insertar, actualizar, borrar y consultar datos de la tabla persona desde el mismo computador donde está instalada la base de datos (localhost).
+            | En el ejemplo se le da permisos a un usuario llamado userdb de la base de datos de nombre biblioteca_db para que pueda insertar, actualizar, borrar y consultar datos de la tabla persona desde el mismo computador donde está instalada la base de datos (#[i localhost]).
         .col-lg-6 
-          img(src='@/assets/curso/temas/74.png', alt='').mb-4
+          img(src='@/assets/curso/temas/74.png', alt='Imagen que presenta un ejemplo DCL.').mb-4
     .fondo-mn4.mn.p-5
       .titulo-icono.p-2.d-inline-block.mb-4
           h4.mb-0 Sentencias de control de transacciones (TCL):
