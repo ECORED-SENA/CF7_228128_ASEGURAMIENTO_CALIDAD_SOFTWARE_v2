@@ -488,7 +488,7 @@
               p Una base de datos orientada a objetos es un sistema de gestión de base de datos mediante el cual representamos la información en forma de objetos que son utilizados en programación orientada a objetos (Kyocera, 2021).
             .col-lg-5.col-7
               figure
-                img(src='@/assets/curso/temas/11.png', alt='El diagrama es un modelo de base de datos orientada a objetos que incluye las clases Cliente, Orden, Pago (con Crédito y Efectivo como subclases), Bebida y Platillo. Cada clase tiene sus atributos y métodos, y se muestran las relaciones entre ellas, como la multiplicidad de órdenes por cliente y la composición de órdenes con bebidas y platillos.')
+                img(src='@/assets/curso/temas/11.svg', alt='El diagrama es un modelo de base de datos orientada a objetos que incluye las clases Cliente, Orden, Pago (con Crédito y Efectivo como subclases), Bebida y Platillo. Cada clase tiene sus atributos y métodos, y se muestran las relaciones entre ellas, como la multiplicidad de órdenes por cliente y la composición de órdenes con bebidas y platillos.')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.svg', alt='')
       .col-lg-10

@@ -62,7 +62,7 @@
       .row.justify-content-center.mb-5
         .col-lg
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 8. 
+            h5 Tabla 9. 
             span Proveedores, productos y precios
           .tabla-a.color-acento-botones.mb-5.tabla-responsive
             table
@@ -163,7 +163,7 @@
       .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Tabla 9. 
+            h5 Tabla 10. 
             span Dependencias funcionales
           .tabla-a.color-acento-botones.mb-5
             table
